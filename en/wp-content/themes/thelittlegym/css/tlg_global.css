@@ -1,0 +1,2199 @@
+body { margin: 0; padding: 0; font: 16px Arial, Helvetica, Sans-Serif; }
+
+h1, div.hdr1 { margin: 5px 15px; padding: 0; font: normal 20px Verdana, Helvetica, Arial, sans-serif; }
+h2 { margin: 5px 15px; padding: 0; font: normal 18px Verdana, Helvetica, Arial, sans-serif; }
+h3 { margin: 0; padding: 5px 15px; font: normal 18px "Corona", Georgia, Times New Roman, serif; }
+h4 { margin: 5px 0; padding: 0; font: bold 14px Verdana, Helvetica, Arial, sans-serif; }
+h1 div, h1 span {
+	 margin: 0; padding: 0; white-space: normal; display: inline;
+}
+
+
+/*a:visited {margin: 0; padding: 0;}*/
+a:hover {/*margin: 0; padding: 0;*/ cursor: pointer;}
+/*a:active {margin: 0; padding: 0;}*/
+
+h1, div.hdr1 { margin: 5px 0; padding: 0; font: normal 20px Verdana, Helvetica, Arial, sans-serif; }
+
+p, ul li, ol li { margin: 0; padding: 5px 15px; font: 13px Verdana, Helvetica, Sans-serif; line-height: 1.5em; }
+ul, ol { margin: 0 45px 5px 45px; padding: 0; }
+ul li, ol li { margin: 0; padding: 2px 5px;	}
+
+div#container { margin: 0 auto; padding: 0 46px; width: 893px; background: url('../images/shadow_bgtile.png') repeat-y center top; text-align: left; }
+
+div#wrapper { margin: 0 auto; padding: 0; width: 100%; text-align: center; clear: both; }
+
+div#header { margin: 0; padding: 0; }
+
+div#topnav { margin: 0 5px 5px 5px; padding: 0; height: 31px; text-align: center; background: #dbe9f5 url('../images/topnav_leftcorner.gif') no-repeat top left; 
+display: block; }
+
+
+
+div#topnav div.topnavcorner { margin: 0; padding: 0; background: url('../images/topnav_rightcorner.gif') no-repeat top right; display: block; 
+height: 31px; }
+div#topnav p { margin: 0; padding: 5px 15px; color: #0077c0; font: normal 12px Verdana, Helvetica, Arial, sans-serif; }
+div#topnav p a { margin: 0; padding: 5px; color: #0077c0; text-decoration: none; }
+div#topnav p a:hover { text-decoration: underline; }
+div#logo { margin: -15px 0 15px 45px; padding: 0; float: left; width: 162px; height: 75px; }
+table.logo { display: none; }
+div#search { margin: 0 0 0 600px; padding: 0; display: block; width: 150px; }
+*html div#search {
+	 margin: 0; float: right; width: 125px;
+}
+div#search table {
+	 margin: 0; padding: 0;
+}
+div#search table.ms-sbtable {
+	margin: 10px 0 0 0; padding: 0;
+}
+div#search table.ms-sbtable tr td {
+	margin: 0; padding: 3px;
+	border: 0px;
+}
+div#search table.ms-sbtable input {
+	margin: 0; padding: 3px;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+div#search table tr td.ms-WPBorder {
+	margin: 0; padding: 0; border: none;
+}
+div#mainnav { font: 14px Verdana, Helvetica, Sans-serif; font-weight: normal; margin: 0 0 10px 19px; padding: 0; clear: both; height: 44px; width: 864px; }
+div#mainnav table { margin: 0; padding: 0; }
+div#mainnav .topNavItem { background: none; position: static; }
+
+div#mainnav table.topNavItem tr td { margin: 0; padding: 0 7px; vertical-align: middle; height: 44px; text-align: center; white-space: normal; position: static; }
+div#mainnav table.topNavItem tr td a {  margin: 0; padding: 0; background: none; font: bold 16px Verdana, Helvetica, Sans-serif; color: #fff; 
+white-space: normal; display:table-cell; vertical-align: middle }
+
+div#contentwrap { margin: 0; padding: 0; clear: both; }
+
+/*div#maincontent { margin: 0 0 10px 5px; padding: 0; width: 600px; float: left; overflow: visible; }*/
+
+/*div#copy {
+margin: 0;
+padding: 10px 25px;
+position: relative;
+}*/
+
+div#flash { margin: 0; padding: 0 10px; height: auto; display: inline; }
+
+div#vidpath { display: none;}
+
+div#copy p { margin: 0; padding: 10px 0; line-height:23px; }
+
+div#copy table {
+	 width: auto;
+}
+
+div#copy table table {
+	width: 100%;
+}
+
+div#copy table.custom_table  { background-color: #f5ecfc; margin-left: 10px; font: bold 14px; color: #7f3e98; width: 520px; }
+
+div#copy table.custom_table td { border-bottom: 1px solid #e6c8fc; padding: 10px; }
+
+div#copy table.form_table {
+	 margin: 0; padding: 0;
+}
+
+div#copy table.form_table tr td {
+	margin: 0 auto; padding: 5px; font: 12px Verdana, Helvetica, Arial, sans-serif;
+	color: #0076c0;
+}
+
+div#copy table tr td.smallertxt { font-size: 11px; } /*edited by BUrquidi 05/11*/
+
+div#copy .copywebpart {
+	 margin: 0 auto; padding: 0; width: 525px;
+}
+
+div#copy div.editablecontent {
+	display: inline;
+}
+
+div#copy div span#__publishingReusableFragment {
+	display: inline; position: relative;
+}
+
+div#awards { margin: 10px 25px 5px 10px; padding: 0; float: right; width: 125px; }
+
+div#sidebar {
+				margin: 0;
+				width: 280px;
+				float: left;
+				overflow: visible;
+}
+div#sidebar p { padding: 5px 10px; font: 12px Verdana, Helvetica, Arial, Sans-serif; color: #58595b; line-height: 1.5em; }
+div#sidebar div.webpartform {
+	 margin: 0; padding: 0 0 0 10px; display: block; width: 230px;
+}
+
+div#sidebar div.webpartform input.btn_go {
+	 margin: 0 0 0 5px; padding: 0;
+}
+div#sidebar form { height: auto; width: 200px; }
+
+
+div.purplecallout { margin: 0 0 12px 0; padding: 0; background: url('../images/callout_purple_tile.gif') repeat-y left top; width: 274px; }
+div.purpletop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_purple_top.gif') no-repeat left top; }
+div.purplebottom { margin: 0; padding: 7px 0 0 0; width: 100%; background: url('../images/callout_purple_bottom.gif') no-repeat left bottom; }
+div.purplecallout h3 { color: #7f3f98; font-size: 21px; }
+
+div.orangecallout { margin: 0 0 12px 0; padding: 0; background: url('../images/callout_orange_tile.gif') repeat-y left top; width: 274px; }
+div.orangetop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_orange_top.gif') no-repeat left top; }
+div.orangebottom { margin: 0; padding: 7px 0; width: 100%; background: url('../images/callout_orange_bottom.gif') no-repeat left bottom; }
+div.orangecallout h3 { color: #f80; font-size: 21px; }
+
+div.greencallout { margin: 0 0 12px 0; padding: 0; background: url('../images/callout_green_tile.gif') repeat-y left top; width: 274px; }
+div.greentop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_green_top.gif') no-repeat left top; }
+div.greenbottom { margin: 0; padding: 7px 0; width: 100%; background: url('../images/callout_green_bottom.gif') no-repeat left bottom; }
+div.greencallout h3 { color: #8dc63f; font-size: 21px; }
+
+
+div.darkgreencallout { margin: 0 0 12px 0; padding: 0; background: url('../images/callout_darkgreen_tile.gif') repeat-y left top; width: 274px; }
+div.darkgreentop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_darkgreen_top.gif') no-repeat left top; }
+div.darkgreenbottom { margin: 0; padding: 7px 0; width: 100%; background: url('../images/callout_darkgreen_bottom.gif') no-repeat left bottom; }
+div.darkgreencallout h3 { color: #00a950; font-size: 21px; }
+
+div.redcallout { margin: 0 0 12px 0; padding: 0; background: url('../images/callout_red_tile.gif') repeat-y left top; width: 274px; }
+div.redtop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_red_top.gif') no-repeat left top; }
+div.redbottom { margin: 0; padding: 7px 0; width: 100%; background: url('../images/callout_red_bottom.gif') no-repeat left bottom; }
+div.redcallout h3 { color: #ed1848; font-size: 21px; }
+
+
+div#inside_footer { margin: 15px 15px 0 15px; padding: 0; background: url('../images/inside_footer_bg.gif') no-repeat left top; 
+color: #fff; width: 869px; clear: both; text-align: center; }
+div#inside_footer p  { margin: 0; padding: 12px 0; font: 10px Verdana, Arial, Helvetica, sans-serif;  text-align: center; letter-spacing: -.5pt; color: #fff; }
+div#inside_footer p a { margin: 0; padding: 0; color: #fff; text-decoration: none; }
+div#inside_footer p a:hover { text-decoration: underline; }
+div#outside_footer { margin: 0 auto; padding: 0; clear: both; background: url('../images/outside_footer_bg.png') no-repeat center top; 
+width: 985px; height: 57px; display:block; }
+
+*html body #outside_footer { width: 992px; }
+*:first-child+html #outside_footer { width: 990px; }
+
+div#outside_footer p { margin: 0; padding: 5px; color: #353535; font: 9px Verdana, Helvetica, Arial, sans-serif; }
+
+div.floatleft {
+	 float: left;
+}
+
+.redtxt {
+	 color: #9a0000;
+}
+
+
+/* Microsoft Generated Classes */
+
+.ms-siteaction { height: auto; float: right; }
+
+.ms-siteactionsmenu { height: 0px; background: #900; overflow: hidden; }
+
+.ms-siteactionsmenu a { }
+
+.ms-pagebreadcrumb, .leftNav { display: none; }
+
+.ms-globallinks, .ms-SPLink { float: right; }
+
+div#SPtopmenu { margin: 0; padding: 0; display: block; width: 100%; height: 20px; background: #eee; }
+div#SPtopmeu table { margin: 0; padding: 0; float: left; }
+
+table.ms-sbtable {
+				margin: 0 0 0 4;
+				padding: 0;
+				width: 200px;
+				float: left;
+}
+
+/*Search - edited by BUrquidi 05/11*/
+
+.ms-sbcell, .ms-sbgo {
+	 border: none;
+}
+div.srch-sort {
+	color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; color: #666666;
+}
+div#srch-sort a:link {
+	color: #6079BA;;
+}
+
+div.srch-results p, div.srch-results div.srch-Description {
+	font: 16px Arial, Helvetica, sans-serif; color: #666666; line-height: 1.5em;
+}
+
+div.srch-results div.srch-description {
+	margin: 0; padding: 5px;
+}
+
+div.srch-results div.srch-Description b {
+	color: #666666;
+}
+
+div#copy div.srch-results p.srch-Metadata {
+	 margin: 0 0 20px 0; padding: 5px; font-size: 16px; line-height: 22px;
+}
+
+div.srch-results p.srch-Metadata a:link, div.srch-results p.srch-Metadata a:visited, div.srch-results span.srch-Title a:link, div.srch-results span.srch-Title a:visited {
+	color: #666666;
+}
+
+div.srch-results p.srch-Metadata a:hover {
+	color: #6079BA;
+}
+
+div#paging {
+	color: #333; font-weight: bold;
+	text-align: right;
+}
+
+div#paging a {
+	 color: #6079BA; font-weight: normal;
+}
+
+div#paging div.srch-Page {
+	background: none; text-align: right;
+}
+
+/*   Follow Us Styles -- created by BCohen, 10/30/09  */
+
+	div.imgtextVertalign {
+		clear:both;
+	}
+
+	div.imgtextVertalign img {
+		float:left;
+		margin-right: 20px;
+	}
+	
+	div.imgtextVertalign p {
+		float:left; 
+		padding-bottom: 2px;
+	}
+
+
+/*  Member Milestones Login Form -- created by BCohen 12/23/09 */
+
+div#copy table.mmlogin p {
+	padding-top: 0;
+	line-height: 1.8;
+	}
+div#copy table.mmlogin td {
+	padding-right: 10px;
+	}
+	
+	
+/*****************************************
+* Section : Master Page Rebrand
+* Author:   Sunny Chowdhury & Betty Urquidi
+* Date: 	4.11.11
+******************************************/
+ 
+div#tlgi_SharePoint_outerContainer{
+ padding: 0; width: 100%;   height:100%;  text-align:center;
+}
+
+div#tlgi_SharePoint_backgroundContainer{
+	width:100%; height:100%; background-color:#ffffff;
+	
+ 
+}
+
+div#tlgi_SharePoint_backGroundContainerGradientLeft{
+				background-image:url('../images/top_bg_left.jpg');
+				background-repeat:repeat-x;
+				height:300px;
+
+}
+
+div#tlgi_SharePoint_backGroundContainerGradientLeft{
+				height:300px;
+				background-repeat:repeat-x;
+				background-image:url('../images/top_bg_right.jpg');
+}
+
+div#tlgi_SharePoint_backGroundContainerGradientLeft_MA{
+				height:313px;
+				background-repeat:repeat-x;
+				background-image:url('../images/top_bg_right_MA.jpg');
+}
+
+
+div#tlgi_SharePoint_backgroundContainerGradient{
+
+
+}
+
+div#tlgi_SharePoint_headerContainer{
+				padding: 0;
+				width: 875px;
+				/*height: 100%;*/
+				vertical-align: middle;
+				/*border: thin red dotted;*/
+				margin-left: auto;
+  				margin-right: auto;
+  				clear: both;
+  				/*position: relative;	/*Allow aboslute positioning inside. Note: In IE-7 this creates a new stack context*/
+}
+
+div.MyAccount_headerContainer{
+	width:1024px !important;
+}
+
+div#tlgi_SharePoint_headerLogo{
+				text-align: left;
+				height: 90px;
+				width: 130px;
+				padding-left: 0px;
+				float: left;			
+}
+
+div#tlgi_SharePoint_headerLogo a:hover {
+				margin: 0;
+				padding: 0;
+}
+
+div#tlgi_SharePoint_headerAddress{
+				text-align: left;
+				width: 268px;
+				height: 68px;
+				padding-left: 0px;
+				float: left;
+				margin-top:5px;
+				font-family: Helvetica;
+				font-size: 11px;
+				color:#ffffff;		
+				overflow: hidden;
+}
+
+div#locationinfo {
+	width: 350px;							
+}
+
+.srchHeaderContainer{
+	display: inline-block;
+	*display: inline;   /* inline-block hack for older IE */
+    zoom: 1;            /* inline-block hack for older IE */
+}
+
+div#tlgi_SharePoint_searchHeader {
+	width: 400px;
+	/*height: 43px;*/
+	float: right;
+}
+
+
+div#tlgi_SharePoint_searchHeader #tlgi_SharePoint_searchHeaderNavigation {
+	width: 398px;
+	margin: 0;
+	font-family: Helvetica;
+	border-bottom: 1px solid #768bc1;
+	border-left: 1px solid #556ead;
+	border-right: 1px solid #556ead;
+	float: right;
+} 
+
+/*div#tlgi_SharePoint_searchHeaderNavigation .searchHeaderNavigationWrapper {
+	margin-top: 7px;
+	padding: 0 5px;
+	color: #ffffff;
+	overflow: visible;
+}*/
+
+/*Edited by J Stevenson 2/26/2013 to stop all site links from shrinking on hover by default*/
+/*Left commented for a history of what was in place but this style should only be */
+/*applied to the elements than specifically need it. */
+div#tlgi_SharePoint_searchHeaderNavigation .searchHeaderNavigationWrapper a/*, a:hover, a:active*/ {
+	margin: 0 2px;
+	padding: 0;
+	font-size: 11px;
+	color: #bce6e4;
+	text-decoration: none;
+}
+
+div#tlgi_SharePoint_SearchField
+{
+				text-align: right;
+/*				border: thin green solid;*/
+				padding-left: 0px;
+				float: right;
+				vertical-align: bottom;
+				padding-bottom: 0px;
+				margin-right: auto;
+
+}
+
+
+div#searchHdrNavLinks {width: 170px; margin-bottom:4px;}
+
+div#searchHdrNavLinks a
+{
+	padding: 0;
+    margin: 0 2px;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+
+div#searchHdrNavLinks > a
+{
+	color: #bce6e4;
+}
+
+#searchHdrNavLinks img {
+    position: relative;
+    top: 2px;
+}
+
+div#searchHdrNavLinks .login-buttons a,
+div#searchHdrNavLinks .register-buttons a {
+    text-decoration: underline;
+}
+
+div#searchHdrSearch {
+    width: 215px;
+    height: 29px;
+}
+
+
+div#searchHdrSearch table.ms-sbtable {
+    margin: 0 0 0 4px;
+    float: right;
+}
+
+div#searchHdrSearch td.ms-sbgo {
+	background-color: transparent;
+	padding: 0;
+    vertical-align: top;
+}
+
+div#searchHdrSearch td.ms-sbgo img {
+	margin-top: 2px;
+    border-width: 0px;
+}
+
+div#searchHdrSearch td.ms-sbcell {
+	padding: 0;
+	border: none;			
+}
+
+div#searchHdrSearch td.ms-sbcell input {
+	height: 20px!important;
+	margin-right: 2px;
+}
+
+
+div#searchHdrSearch td.ms-sbLastCell {			
+	padding-right: 0px;	
+	width: 4px	
+}
+
+div#tlgi_SharePoint_searchHeaderNavigation .searchHeaderNavigationWrapper #searchHdrSearch input  {
+	width: 137px;
+	height: 20px;
+	font-family: Helvetica;
+	font-size: 11px;
+	color: #666666;
+	float: left;
+}
+
+div#tlgi_SharePoint_searchHeaderNavigation .searchHeaderNavigationWrapper #searchHdrSearch input.btn {
+	width: 29px;
+	height: 23px;
+	float: left;
+}
+
+.searchHdrNavGradient {	
+		padding: 0;
+		margin: 0;
+		/* For WebKit (Safari, Google Chrome etc) */
+		background: -webkit-gradient(linear, left top, left bottom, from(#5c75b5), to(#4e68a7));
+		/* For Mozilla/Gecko (Firefox etc) */
+		background: -moz-linear-gradient(top, #5c75b5, #4e68a7);
+		/* For Internet Explorer 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF5c75b5, endColorstr=#FF4e68a7);
+		/* For Internet Explorer 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF5c75b5, endColorstr=#FF4e68a7)";
+		/* CSS3 - Must be last */
+		background: linear-gradient(to bottom, #5c75b5, #4e68a7);
+}
+
+.searchHdrNavRounded {
+				    border-bottom-right-radius: 10px;
+				    border-bottom-left-radius: 10px;
+				    -moz-border-radius-bottomleft: 10px;
+					-moz-border-radius-bottomright: 10px;
+					-khtml-border-bottom-left-radius: 10px;
+					-khtml-border-bottom-right-radius: 10px;	
+					-webkit-border-bottom-left-radius: 10px;
+					-webkit-border-bottom-right-radius: 10px;
+}
+
+.tlgi_SharePoint_searchHeaderTable{
+	width:100%;
+	margin: 5px 2px;
+	border-collapse: collapse;
+}
+
+.tlgi_SharePoint_searchHeaderTable>tbody>tr>td{
+	vertical-align: middle;
+}
+
+div#tlgi_SharePoint_navHeader
+{								
+				text-align: left;
+				/*height: 20px;*/
+				width: 700px;			
+				padding-left: 0px;
+				float: right;
+				vertical-align: bottom;
+				padding-bottom: 0px;
+				margin-top: -8px;
+				list-style:none;
+				white-space:nowrap;
+}
+
+div.MyAccount_navHeader
+{								
+				width: 849px !important;			
+}
+
+
+div#tlgi_SharePoint_navHeader a{
+				font-family: Helvetica;
+				font-size: 16px;	
+				text-decoration: none;	
+}
+
+div#tlgi_SharePoint_navHeader a:hover{
+				font-family: Helvetica;
+				font-size: 16px;
+				text-decoration: none;
+				cursor: pointer;
+}
+
+div#tlgi_SharePoint_ContentMain{
+				width: 885px;
+				height: 100%;
+				/*border: thin red solid;*/
+				margin: 0 auto; 
+				padding: 0; 
+
+}
+
+
+div#tlgi_SharePoint_ContentWrap {
+				width: 885px;
+				padding: 0;
+				/*border: thin black solid;*/
+				margin-right: auto;
+				margin-left: auto;
+				overflow: visible;
+				clear: both;	
+}
+
+/* Make sure when ContentWrap is a child of the header section, it's header image overlays the header. In the HTML5 master it is not a child */
+/*div#tlgi_SharePoint_backGroundContainerGradientLeft > #tlgi_SharePoint_ContentWrap{
+				position:relative;
+				top:-200px;
+}*/
+
+div.tlgi_SharePoint_ContentArea {
+				width: 100%;
+				padding: 0;
+				/*border: thin black solid;*/
+				/*margin-right: auto;
+				margin-left: auto;
+				overflow: visible;*/
+				clear: both;	
+}
+
+
+div.MyAccount_ContentWrap {
+				width: 1034px !important;
+}
+
+
+
+div#tlgi_SharePoint_Footer {
+	width: 875px;
+	height: auto;
+	margin: 10px auto 0 auto;
+	padding: 0;
+	background: #ffffff url('../images/footer_bg.jpg') no-repeat top;
+	clear: both;
+	overflow: hidden;			
+}
+
+div.MyAccount_Footer {
+	width: 1024px !important;
+}
+
+
+.tlgi_SharePoint_FooterLinks {
+	position: relative;
+	width: 72%;
+	font-family: Helvetica;
+	font-size: 11px;
+	font-weight: Normal;
+	float: left;
+}
+
+
+.tlgi_SharePoint_FooterLinks a {
+	font-family: Helvetica;
+	font-size: 11px;
+	font-weight: Normal;
+	text-decoration:none;
+}
+
+.tlgi_SharePoint_FooterLinks p {
+	margin: 0;
+	padding: 0;	
+}
+
+.tlgi_SharePoint_FooterLinks p.footer_nav a {
+	margin-right: 14px;
+	color: #7f3f98;
+	float: left;	
+}
+
+.tlgi_SharePoint_FooterLinks p.footer_nav a:hover {
+	text-decoration: underline;	
+}
+
+
+.tlgi_SharePoint_FooterLinks p.copyright {
+	padding-top: 0px;
+	font-size: 13px;
+	text-align: left;
+	color: #999999;
+	clear: left;
+	
+}
+
+.tlgi_SharePoint_FooterLinks p.copyright a {
+	font-size: 13px;
+	color: #999999;
+	clear: left;
+}
+
+.tlgi_SharePoint_FooterLinks p.copyright a:hover {
+	text-decoration: underline;
+}
+
+
+.tlgi_SharePoint_FooterIcons {
+	position: relative;
+	width: 25%;
+	text-align: right;
+	float: right;
+    font-size: 0px;
+}
+
+.tlgi_SharePoint_FooterIcons img {margin-left: 5px;}
+
+
+div#tlgi_MainContent_Clear{
+								
+
+}
+
+div#tlgi_SharePoint_SubSiteHeader { 
+				position: relative;
+				bottom: 0px;
+				width:875px; 
+				height: 200px;
+				padding:0;
+				margin: 0 auto;
+				clear: both;
+			 
+}
+
+div.MyAccount_SubSiteHeader { 
+				width:1024px !important; 			 
+}
+
+
+div#tlgi_SharePoint_SubSiteHeader img {
+				display: block;
+				border: 0px;
+				padding: 0;
+				margin: 0;
+}
+
+div#tlgi_SharePoint_SubSiteHeader_Home {
+				position: relative;
+				top: 0px;
+				margin: 0 auto;
+				width:885px; 
+				height: 287px; 
+				clear: both;			
+}
+
+div#tlgi_SubSiteContentContainer {
+				width: 875px;
+				margin: 15px auto 0 auto;	
+				padding: 0;
+				/*overflow: hidden;*/
+                overflow: inherit;
+				clear: both;
+}
+
+div.MyAccount_SubSiteContentContainer{
+				width: 1024px !important;
+}
+
+div#tlgi_SharePoint_SubSiteContent {
+				float:left;
+				margin: 0; 
+				width:525px; 
+				height: 100%; 
+				overflow: visible; 
+}
+
+div#tlgi_SharePoint_HomeContent {
+				width: 525px;
+				margin: 12px 0 0 0;
+				padding: 0;		
+				top:150px;
+				overflow:inherit;
+			
+}
+
+div#maincontent {margin: 0 35px 10px 25px; padding: 0; width: 525px; float: left; text-align: left; overflow: visible;}
+
+div.MyAccount_maincontent { width: 674px !important; }
+
+div#copy {
+				font-family: Arial, Helvetica, sans-serif;
+				color: #666666;
+				margin: 0;
+				padding: 2px 0 0 0;
+				position: relative;
+}
+
+
+div#tlgi_SharePoint_SubSiteSideBar {
+				margin: 0 14px 0 0;
+				width: 275px;
+				float: right;
+				overflow: visible;
+}
+
+div#tlgi_Sharepoint_SubSiteSidebar a img {
+	border: 0;	/*get rid of border around image links in sidebar*/	
+	cursor: pointer;
+}
+
+
+div#tlgi_SharePoint_SubSiteSidebarCallout {
+	clear: both;
+}
+
+
+div#tlgi_SharePoint_SubSiteSidebarCallout a {
+	cursor: pointer;
+}
+
+
+
+/* Home Callouts */
+
+div#tlgi_HomeCalloutContainer {
+	width: 875px; 
+	height: 160px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	clear: both;
+}
+
+div#tlgi_SubSiteContentContainer img {
+	display: block;
+	border-style: none;
+}
+
+div#tlgi_SubSiteContentContainer a img {
+	cursor: pointer;	
+}
+
+
+div#tlgi_SubSiteContentContainer .calloutControl {
+	width: 275px;
+	height: 150px;
+	margin: 0 25px 0 0;
+	text-align: center;
+	float: left;
+}
+
+div#tlgi_SubSiteContentContainer .box-last {
+	margin: 0 !important;
+}
+
+.contentLearning
+{
+	width:100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.dimensionalVideo
+{
+    width:570px;
+    float: left;
+    padding: 5px;
+}
+
+.dimensionalVideo ul
+{
+    margin:0;
+    padding-left:3px;
+    float:left;
+    clear:both;
+    margin-bottom:7px;
+    padding-top: 10px;
+}
+.viewDetailNews {
+    text-align: right;
+}
+.aDetailNews {
+    color: #FF6600;
+    font-size: 13px;
+    font-style: italic;
+    outline: medium none;
+}
+.dimensionalLearning
+{
+	float:left;
+	width:270px;
+	padding:5px;
+    margin-right: 25px;
+}
+
+.divBgFindAGun
+{
+	width:270px;
+	margin:0;
+    padding: 10px 0 0 0;
+}
+
+.divBgFindAGun li
+{
+    list-style-type:none;
+    background:url(../images/arow2.gif) no-repeat left 7px scroll;
+    padding-left:12px;
+    text-align: left;
+}
+.divBgFindAGun li a
+{
+    color:#00559B;
+    text-decoration:none;
+    font-size:12px;
+}
+.divBgFindAGun li a:hover
+{
+    text-decoration: underline;
+}
+
+.titleCoporate
+{
+	color:#45609d;
+	font-family:Helvetica;
+	font-size:20px;
+	border-bottom:solid 1px #d9d9d9;
+    padding-bottom:3px;
+    clear:both;
+    text-align: left;
+    padding-left: 0px;
+}
+.titleHome
+{
+	color:#45609d;
+	font-family:Helvetica;
+	font-size:20px;
+	border-bottom:solid 1px #d9d9d9;
+    padding-bottom:3px;
+    clear:both;
+    height:22px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.titleNameHome
+{
+    float:left;
+}
+
+.ulCategoryGallery
+{
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    list-style-type:none;
+}
+
+.liGallery
+{
+    float:left;
+    margin-right:9px;
+    margin-top:5px;
+    height:auto;
+    list-style-type:none;
+    padding: 0px !important;
+}
+.new-line {
+    margin-right: 0px !important;
+}
+.full-content {
+    width: width: 815px !important;
+}
+div#tlgi_HomeCalloutFindaGym {
+	background:url('../images/callout_find_bg.jpg') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+div#tlgi_HomeCalloutFindaGym .findTitle {
+	position: relative; 
+	top: 12px; 
+	width: 252px; 
+	margin: 0 auto;
+}
+
+div#tlgi_HomeCalloutFindaGym .zipEntry {
+	position: relative; 
+	top: 23px; 
+	width: 205px; 
+	height: 25px; 
+	margin: 0 auto; 
+	clear: both;
+}
+
+div#tlgi_HomeCalloutFindaGym .zipEntry input.entry {
+	font-family: Helvetica; 
+	font-size: 13px; 
+	width: 167px; 
+	height: 19px; 
+	color: #666666; 
+	float: left;
+}
+
+div#tlgi_HomeCalloutFindaGym .zipEntry input.btn {
+	width: 32px;
+	float: left;
+}
+
+div#tlgi_HomeCalloutFindaGym .browseText {
+	position: relative; 
+	top: 60px; 
+	width: 123px; 
+	margin: 0 auto;
+}
+
+div#tlgi_HomeCalloutFindaGym .browseText a{
+	display:inline-block;
+}
+
+div#tlgi_HomeCalloutIntroductoryClass {
+	background:url('../images/IntroPackageCallout_LocalGeneral.png') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+div#tlgi_LocalCalloutIntroductoryClass {
+	background:url('../images/IntroPackageCallout_LocalGeneral.png') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+
+div#tlgi_LocalCalloutIntroductoryClass3 {
+	background:url('../images/IntroPackageCallout_Local3week.png') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+div#tlgi_LocalCalloutIntroductoryClass4 {
+	background:url('../images/IntroPackageCallout_Local4week.png') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+
+
+div#tlgi_HomeCalloutContainer #HomeRightCallouts {
+	width: 275px;
+	margin-bottom: 10px;
+	padding: 0;
+	float: left;
+	/*vertical-align:top;
+	z-index:1000;*/
+}
+
+
+div#tlgi_HomeCalloutContainer .calloutRight {
+	margin-bottom: 10px; 
+}
+
+
+div#tlgi_HomeCalloutContainer .calloutRight .nomargin {
+	margin: 0;
+}
+
+.introSmallWhiteText { 
+	margin-top: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;		
+	clear: both;
+}
+
+.introSmallBlackText { 
+	margin-top: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;	
+	clear: both;
+}
+
+.introPackCallout
+{
+				
+				
+}
+
+#IPLocalCallOutContainer
+ {	
+	height: 150px;
+    width: 275px;
+    position: relative;
+    margin: 0px 20px 10px 0px;
+    float: left;
+}
+
+#IPButtonContainer2 
+{  
+	position: absolute;
+	display: block;
+	height: 28px;
+	width: 232px;
+	margin-left: 21.5px;
+	margin-top: 113px;  
+	left:0px;
+}
+
+#IPButtonContainer2A
+{  	
+  	display:block;
+    height:28px;   
+    width:232px;      
+    text-indent:-9999px; 
+	background:url('../images/blankbutton.png') no-repeat;	
+	position:relative;
+}
+
+#IPButtonContainerT
+{  
+	position: absolute;
+	display: block;
+	height: 28px;
+	width: 232px;		
+	text-align: center;	
+	top: 6px;
+	left: 0px;;
+	font-size: 12px;	
+	font-weight: bold;
+	text-decoration: none !important;	
+	@font-family:GothamRounded-Book !important;	
+	color:#FFFFFF!important;		
+
+}
+
+#IPButtonContainer3 
+{  
+	position: absolute;
+	display: block;
+	height: 28px;
+	width: 232px;
+	margin-left: 21.5px;
+	margin-top: 113px;  
+	left:0px;
+}
+
+#IPButtonContainer3A
+{  	
+  	display:block;
+    height:28px;   
+    width:232px;      
+    text-indent:-9999px; 
+	background:url('../images/Hover_BookIEButton.png') no-repeat;	
+	position:relative;
+}
+
+#IPButtonText
+{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 	    
+	font-size: 11px;	
+	font-weight: bold;
+	text-decoration: none !important;	
+	font-family:GothamRounded-Book !important;	
+	color:#E6F2A0 !important;		
+}
+
+#IPLOImage
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+#IPContainer
+{
+    height:323px;
+    width:275px;
+    position:relative;
+    margin:0px 0px 10px 0px;
+}
+
+#IPContainerBig
+{
+    height:449px;
+    width:275px;
+    position:relative;
+    margin:0px 0px 10px 0px;
+}
+
+
+#IPImage
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#IPTextContainer
+{
+  position: absolute;
+  left: 0px;
+  top: 255px;
+  width: 275px;
+  height: 0px;
+  display: table; 			
+}
+
+#IPText
+{
+    z-index: 100;
+	position: absolute;
+	left: 25px;
+	top: 250px;
+	color: #8D8A89;
+	font-size: 11px;
+	font-family: GothamRounded-Book;
+	font-weight: bold;
+}
+
+#IPTextTwo
+{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 	
+    color: #8D8A89;
+	font-size: 11px;
+	@font-family: GothamRounded-Book;
+	font-weight: bold;
+		
+}
+
+#IntroPackContainer
+{
+    height:150px;
+    width:275px;  
+    margin: 0 25px 0 0;	
+	float: left;
+	position: relative;
+  
+}
+
+#IntroPackFindLocation {
+    background-image:url(../images/IntroPackageCallout.jpg);
+    display:block;
+    height:150px;
+    text-indent:-9999px;
+    width:275px;
+}
+
+div#IntroPackLocation {
+	background:url('../images/PricingCallOut_blank.png') no-repeat;
+	height:323px;	
+	width:100%;
+	text-align:center;
+	margin-bottom: 10px;
+	text-align: center;
+	float: left;
+}
+div#IntroPackTextNoLink
+{
+	z-index:100;
+    position:absolute;    
+    color:#8D8A89;
+    font-size:15px;    
+    left:35px;
+    top:5px;    
+    width:223px;
+    font-family:GothamRounded-Book;
+    display: inline-block;
+		
+				
+}
+
+#introPackButton{
+   position: relative; 
+   width: 100%;
+}
+
+
+#introPackText 
+{
+    z-index:100;
+    position:absolute;    
+    color:#E6F2A0;
+    font-size:13px;    
+    left:35px;
+    top:5px;    
+    font-family:GothamRounded-Book;
+    cursor: pointer;    
+}
+
+#introPackText a
+{
+	text-decoration: none !important;	
+	font-family:GothamRounded-Book !important;	
+	color:#E6F2A0 !important;			
+}
+
+#introPackText .a:-webkit-any-link{
+text-decoration:none !important;
+}
+
+
+/* Drop Off Callout - added 7-9-12 */
+
+div#tlgi_CalloutDropOff {
+	background:url('../images/callout_dropoff_bg.jpg') no-repeat;
+	height:150px;
+	width:275px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+div#tlgi_CalloutDropOff  .findTitle {
+	position: relative; 
+	top: 20px; 
+	width: 251px; 
+	margin: 0 auto;
+}
+
+div#tlgi_CalloutDropOff .zipEntry {
+	position: relative; 
+	top: 46px; 
+	width: 205px; 
+	height: 25px; 
+	margin: 0 auto; 
+	clear: both;
+}
+
+div#tlgi_CalloutDropOff .zipEntry input.entry {
+	font-family: Helvetica; 
+	font-size: 13px; 
+	width: 167px; 
+	height: 24px; 
+	color: #666666; 
+	float: left;
+}
+
+div#tlgi_CalloutDropOff .zipEntry input.btn {
+	width: 32px;
+	float: left;
+}
+
+
+
+
+/* Interior Page Callouts */
+
+.calloutControlInterior {
+	width: 275px;
+	margin: 0 0 10px 0;
+	text-align: center;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+.calloutControlInterior img {
+	border-style: none;
+}
+
+.calloutControlInterior img a {
+	cursor: pointer;	
+}
+
+.calloutStories {
+	background: #bac4dd url('../images/callout_stories_gradient.jpg') repeat-x top left;
+}
+
+.calloutStories p {
+	text-align: left; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	color: #334f8a;
+	line-height: 19px;	 	
+}
+
+.calloutStories .storyText {
+	background:url('../images/callout_stories_bgtop.jpg') no-repeat left top;
+}
+
+.calloutStories .storyText p {
+	padding: 25px 23px 5px 23px; 
+	margin: 0; 
+	font-style: italic; 
+}
+
+.calloutStories .storyName p {
+	padding: 0px 25px;
+	font-weight: bold;
+}
+
+.calloutStories .storyName p span {
+	font-weight: normal;	
+}
+
+.calloutStories .storyButton {
+	height: 66px;
+	background:url('../images/callout_stories_bgbottom.jpg') no-repeat left bottom; 
+}
+
+
+/*retooled announcement callout, now teal*/
+div.tealcallout {width: 275px; margin: 0 0 10px 0; padding: 0; background: #45adac url('../images/callout_teal_gradient.jpg') repeat-x left top; clear: both;}
+div.tealtop { margin: 0; padding: 0; width: 100%; background: url('../images/callout_teal_top.jpg') no-repeat left top; }
+div.tealbottom { margin: 0; padding: 7px 0; width: 100%; background: url('../images/callout_teal_btm.jpg') no-repeat left bottom; }
+div.tealcallout h3 { color: #ffffff; font-size: 21px; }
+
+
+/* Content Styles - Partial and Full Width */
+ 
+
+div#copy h1, div#copy div.hdr1 {
+	margin: 5px 0; 
+	padding: 0 0 8px 0; 
+	border-bottom: 1px solid #d9d9d9; 
+	font: normal 25px Helvetica; 
+	color: #45609d;
+}
+
+div#copy div.hdr2 { /* for registration pages with more than one hdr1 */
+	margin: 40px 0 0 0; 
+	padding: 0 0 8px 0; 
+	border-bottom: 1px solid #d9d9d9; 
+	font: normal 25px Helvetica; 
+	color: #45609d;		
+}
+
+div#copy div.hdr1NoLine {
+	margin: 5px 0; 
+	padding: 0 0 8px 0; 
+	font: normal 25px Helvetica; 
+	color: #45609d;				
+}
+
+div#copy h2 {
+	margin: 5px 0;
+	padding: 0 0 2px 0;
+	font: normal 21px Helvetica; 
+	color: #45609d;			
+}
+
+
+div#copy h3 {
+	margin: 5px 0; 
+	padding: 8px 0;
+	font: normal 18px Helvetica; 
+	color: #45609d;	
+}
+
+div#copy h4 {
+	margin: 5px 0; 
+	padding: 8px 0;
+	font: normal 18px Helvetica; 
+	color: #45609d;			
+}
+
+div#copy h5 {
+	margin: 0; 
+	padding: 0 0 10px 0;
+	font: bold 16px Helvetica; 
+	color: #889f05;			
+}
+
+div#copy h5.form {
+	margin: 0; 
+	padding: 25px 0;
+	font: bold 15px Helvetica; 
+	color: #45609d;
+}
+
+
+
+/*div#copy a:hover {
+	margin: 0;
+	padding: 0;	
+	font-weight: normal;	
+}*/
+
+
+div#copy p {
+	font: normal 16px Helvetica; 
+	color: #666666;
+	line-height: 22px;
+}
+
+div#copy p a  {
+	color: #6079BA;
+	text-decoration: underline;			
+}
+
+
+div#copy p a:visited {
+	font-size: 16px;
+}
+
+div#copy p a:hover {
+	font-size: 16px;
+	font-weight: normal;
+	color: #3a57a2;
+	text-decoration: none;			
+}
+
+
+div#copy p a:active {
+	font-size: 16px;				
+}
+
+/* Shifting from default element styles being applied to div#copy to elements using the class .TLG_Default */
+.TLG_Default ul, ol, dl {
+	font: normal 16px Helvetica;
+	list-style-type: disc;					
+}
+
+.TLG_Default ul li, .TLG_Default ol li, .TLG_Default dl dt {
+	font: normal 16px Helvetica;
+	padding: 6px 0;
+	color: #666666; 
+	line-height: 22px;						
+}
+
+
+.TLG_Default ul li a, .TLG_Default ol li a, .TLG_Default dl dt a {
+	color: #6079BA;
+	text-decoration: underline;	
+}
+
+.TLG_Default ul li a:hover, .TLG_Default>ol li a:hover, .TLG_Default dl dt a:hover, .TLG_Default dl dd a:hover  {
+	font-size: 16px;
+	font-weight: normal;
+	color: #3a57a2;
+	text-decoration: none;			
+}
+
+.TLG_Default ul li a:active, .TLG_Default ol li a:active, .TLG_Default dl dt a:active, .TLG_Default dl dd a:active  {
+	font-size: 16px;
+	font-weight: normal;
+	color: #3a57a2;
+	text-decoration: none;			
+}
+
+div#copy dl#sitemap dt {
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+div#copy dl#sitemap dt a:hover, div#copy dl#sitemap dt a:active {
+	font-weight: bold;
+}
+
+div#copy dl#sitemap dd {
+	padding: 0 0 8px 0;
+	margin-left: 15px;
+}
+
+div#copy table a {
+	color: #6079BA;
+	font-weight: normal;
+	text-decoration: underline;						
+}
+
+div#copy table a:hover {
+	font-size: 12px;
+	font-weight: normal;
+	color: #3a57a2;
+	text-decoration: none;					
+}
+
+
+/*old flash video format
+div#inpagevideo {margin: 0 0 0 218px; display: block; padding: 54px 0 50px 45px;  position: absolute; width:267px; z-index: 100; /*float: right;*/ /*display: inline; }*/
+
+div#copy p#inpagevideo {width: 267px;height :205px; margin: 5px 0 0 5px; float: right; font-size: 12px; color: #6079BA; display: inline;}
+
+/* search results */
+
+.srch-description {
+	margin: 5px 0; 
+	padding: 8px 0;
+	font: bold 16px Helvetica; 
+	color: #666666;	
+}
+
+
+
+/* form styles */
+
+
+div#copy table.form_table tr td {
+	margin: 0 auto; 
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight: bold;
+	color: #333333;
+}
+
+div#copy table.form_table input {
+	border: 1px solid #d9d9d9;						
+}
+
+
+/* Three-Dimensional Learning - Horizontal and Vertical */
+
+div#copy div#CurriculumContainer {
+	width: 845px;
+	overflow: hidden;
+	clear: both;
+}
+
+div#copy .ladder {
+	overflow: hidden; 
+	clear: both;
+}
+
+div#copy .ladder img {
+	float: left;
+	margin-right: 22px;
+}
+
+div#copy .ladder p {
+	margin: 0 0 18px 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+	color: #999999;
+	clear: none;
+}
+
+div#copy .learningHorizontal {
+	width: 845px;
+	margin-top: 20px;	
+	overflow: hidden;
+}
+
+div#copy .learningHorizontal .dimensionsHdr {
+	width: 100%;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+div#copy .learningHorizontal  .dimensions {
+	width: 265px;
+	float: left;
+}
+
+div#copy .learningHorizontal  .dimensions img {
+	float: left;	
+}
+
+div#copy .learningHorizontal  .dimensions h1 {
+	margin: 0 0 0 82px;
+	padding: 0;
+	border-style: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+div#copy .learningHorizontal .dimensions h1.moving {
+	color: #b3c92c;
+}
+
+div#copy .learningHorizontal .dimensions h1.boost {
+	color: #f89c2f;	
+}
+
+div#copy .learningHorizontal .dimensions h1.citizen {
+	color: #37c1f0;	
+}
+
+div#copy .learningHorizontal .dimensions p {
+	margin:4px 0 0 82px;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+
+div#copy .learningVertical {
+	width: 525px;
+	margin-top: 20px;
+	clear: both;	
+}
+
+div#copy .learningVertical  .dimensions {
+	width: 525px;
+	margin-bottom: 28px;
+}
+
+div#copy .learningVertical  .dimensions img {
+	float: left;	
+}
+
+div#copy .learningVertical  .dimensions h1 {
+	margin: 0 0 0 88px;
+	padding: 0;
+	border-style: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+div#copy .learningVertical .dimensions h1.moving {
+	color: #b3c92c;
+}
+
+div#copy .learningVertical .dimensions h1.boost {
+	color: #f89c2f;	
+}
+
+div#copy .learningVertical .dimensions h1.citizen {
+	color: #37c1f0;	
+}
+
+div#copy .learningVertical .dimensions p {
+	margin:4px 0 0 88px;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+
+/* HP Rotator Styles */
+
+.rotatorButtonLeft{
+				position:absolute; top:133px; left:9px; z-index:100;
+}
+
+.rotatorButtonRight{
+				position:absolute; top:133px; left:825px; z-index:100;
+}
+
+/* Blog Styles */
+
+div.tlgi_SharePoint_BlogContainer {
+	width: 525px;
+	margin: 0 0 30px 0;
+	overflow: hidden;
+	clear: both;	
+}
+
+div.tlgi_SharePoint_BlogTitleContainer {
+	display:table;
+	width:100%;
+	margin: 5px 0 15px 0; 
+	padding: 0 0 8px 0; 
+	/*border-bottom: 1px solid #d9d9d9;*/
+	font: normal 25px Arial, Helvetica, sans-serif; 
+	color: #45609d;				
+}
+
+div.tlgi_SharePoint_BlogTitle {
+	display:table-cell;
+	width:99%;
+}
+div.tlgi_SharePoint_BlogTitle a:hover {
+	font: normal 25px Arial, Helvetica, sans-serif; 
+	color: #45609d;	
+	text-decoration: none;	
+}
+
+div.tlgi_SharePoint_BlogDate {
+	display:table-cell;
+	vertical-align:bottom;
+	white-space:nowrap;
+}
+
+span.tlgi_SharePoint_BlogDate{
+	font-size:12px;
+}
+
+div.tlgi_SharePoint_BlogPost {
+	padding: 0 0 15px 0;
+	margin: 0 0 30px 0;
+	border-bottom: 1px solid #d9d9d9;
+	font: normal 13px Arial, Helvetica, sans-serif; 
+	color: #666666;
+	line-height: 20px;		
+}
+
+
+div.tlgi_SharePoint_PublishDate {
+	margin: 0 15px 0 0;
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	color: #666666;	
+	float: left;		
+}
+
+div.tlgi_SharePoint_ExpireDate {
+	margin: 0 15px 0 0;
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	color: #666666;	
+	float: left;		
+}
+
+div.tlgi_SharePoint_VideoURL {
+	margin: 0 0 10px 0;	
+}
+
+div.tlgi_SharePoint_Share {
+	font: bold 12px Arial, Helvetica, sans-serif; 
+	color: #6079ba;
+	float: left;
+}
+
+div.tlgi_SharePoint_Share a {
+	font: bold 12px Arial, Helvetica, sans-serif; 
+	color: #6079ba;
+	text-decoration: none;	
+}
+
+div.tlgi_SharePoint_Share a:hover {
+	text-decoration: underline;	
+}
+
+div.tlgi_SharePoint_Announcement {
+	width: 525px;
+	padding: 0 0 30px 0;
+	margin: 0 0 30px 0;
+	background: url('../images/blog_announcementsBtm.gif') no-repeat left bottom;
+	overflow: hidden;
+	clear: both;
+}
+
+div.tlgi_SharePoint_Announcement .title {
+	margin: 0 0 10px 0;
+	font: normal 20px Arial, Helvetica, sans-serif; 
+	color: #f26425;	
+}
+
+div.tlgi_SharePoint_Announcement .text {
+	padding: 0 0 15px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #d9d9d9;
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	color: #666666;	
+}
+
+div#blogSidebar {
+	width: 262px;
+	margin-top: 35px;
+	overflow: hidden;
+	clear: both;
+	text-align:left;
+}
+
+div#blogSidebar ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0 0;
+	text-align: left;
+}
+
+div#blogSidebar ul li {
+	padding: 0 0 6px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+div#blogSidebar ul li a {
+	color: #6079ba;
+	text-decoration: none;	
+}
+
+div#blogSidebar ul li a:visited {
+	font-size: 13px;
+	color: #6079ba;
+	text-decoration: none;	
+}
+
+div#blogSidebar ul li a:hover {
+	font-size: 13px;
+	text-decoration: underline;	
+}
+
+div#blogSidebar ul li a:active {
+	color: #6079ba;
+	text-decoration: none;	
+}
+
+div#blogArchives {
+	/*width: 127px;*/
+	margin-right: 8px;	
+	float: left;
+}
+
+div#blogCategories {
+	width: 127px;	
+	float: left;
+}
+
+div#copy a.at300b:hover, div#copy a.at300m:hover {
+	padding: 0 2px;	
+}
+
+div#copy a.addthis_bubble_style:hover {
+	padding: 0 0 0 4px;
+	margin: 0 0 0 -2px;
+}
+div#copy div#about-loc div {
+margin: 0; 
+padding: 10px 0;
+font: normal 16px Helvetica; 
+color: #666666;
+line-height: 22px;
+}
+
+/* Sitemap Styles */
+
+#ctl00_PlaceHolderMain_TreeView1 a:hover {
+	font-size: 15px!important;
+}
+
+/* Generic Horizontal Content Centering */
+.centeredContentContainer
+{
+	display:block;
+	width:100%;	
+}
+.centeredContentWrapper
+{
+	display:block;
+	float:left;
+	position:relative;
+	left:50%;
+}
+.centeredContentItem
+{
+	display:block;
+	float:left;
+	position:relative;
+	right:50%;
+}
+.wpcf7 p {
+    margin-top: 10px !important;
+    padding: 0px !important;
+}
+.wpcf7 textarea {
+    width: 400px;
+}
+.wpcf7 input[type="submit"] {
+    background: url('../images/btn_submit_purple.gif') no-repeat left bottom;
+    width: 79px;
+    height: 28px;
+    border: none;
+    text-indent: -200px;
+}
+span.wpcf7-not-valid-tip {
+    font-size: 13px;
+}
+.hide {
+    display: none;
+}
+.divRowContact {
+    float: left;
+    width: 100%;
+}
+.c-b5 {
+    margin-bottom: 5px;
+}
+
+.c-text {
+    color: #666666;
+    float: left;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+}
+.c-var {
+    float: left;
+    text-align: left;
+}
+.c-varComment {
+    float: left;
+    text-align: left;
+    width: 250px;
+}
+
+.c-input
+{
+    width:200px;
+}
+
+.c-noidung {
+    float: left;
+    height: 100px;
+    text-align: left;
+    width: 330px;
+}
+.c-noidungComment {
+    float: left;
+    height: 100px;
+    text-align: left;
+    width: 280px;
+}
+
+.divRowContact span
+{
+    font-size:11px;
+    font-family:Arial;
+}
+.imageGalleryDetail
+{
+    text-align:center;
+}
+
+
+.c-textBook {
+    color: #666666;
+    float: left;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.c-textBook1 {
+    color: #666666;
+    float: left;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+    width: 65px;
+}
+
+.c-textBook2 {
+    color: #666666;
+    float: left;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+    width: 80px;
+}
+.c-varBook {
+    float: left;
+    text-align: left;
+    width: 120px;
+}
+.c-varBook1 {
+    float: left;
+    text-align: left;
+    width: 100px;
+}
+div.wpcf7-validation-errors {
+    clear: both;
+}
+.form-booking .c-text {
+    float: none;
+    clear: both;
+    text-align: left;
+}
+.form-booking .c-var {
+    float: none;
+    clear: both;
+}
+.form-booking .c-b5 {
+    margin-bottom: 10px;
+}
+.form-booking .wpcf7-mail-sent-ok {
+    border: none !important;
+}
+.form-booking div.wpcf7-validation-errors {
+    display: none !important;
+}
+.tlgi_SharePoint_Locations ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.tlgi_SharePoint_Locations ul li {
+    font-size: 11px;
+    padding: 0px;
+}
+.footer-links-social {
+    position: relative;
+    overflow: hidden;
+    top: 9px;
+    width: 100%;
+    clear: both;
+}
+.tlgi_SharePoint_Locations h4 {
+    text-align: left;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #666666;
+}
+.locations-fanpage {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+.tlgi_SharePoint_Locations {
+    float: left;
+    width: 60%;
+}
+.tlgi_SharePoint_Fanpage {
+    float: right;
+    width: 40%;
+    text-align: right;
+    padding-top: 22px;
+}
+.ui-button {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    overflow: visible;
+}
+.ui-buttonset .ui-button {
+    margin-left: 0;
+    margin-right: -.3em;
+}
+.ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active {
+    text-decoration: none;
+}
+.ui-corner-left {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.ui-corner-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ui-state-default {
+    border: 1px solid #c5dbec !important;
+    background: #dfeffc url(../images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x !important;
+    font-weight: bold !important;
+    color: #2e6e9e !important;
+}
+.ui-state-hover, .ui-state-default:hover {
+    border: 1px solid #79b7e7 !important;
+    background: #d0e5f5 url(../images/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x !important;
+    font-weight: bold !important;
+    color: #1d5987 !important;
+}
+.ui-state-active {
+    border: 1px solid #79b7e7 !important;
+    background: #f5f8f9 url(../images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x !important;
+    font-weight: bold !important;
+    color: #e17009 !important;
+}
+.ui-widget {
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-button-text-only .ui-button-text {
+    font-size: 12px;
+    padding: 0.8em 1em;
+}
+.ui-button .ui-button-text {
+    display: block;
+    line-height: normal;
+}
+.ui-buttonset {
+    margin-bottom: 20px;
+}
+a#slider-stopper {
+    display: none;
+}
+.ui-slider-horizontal {
+    height: 0.3em !important;
+}
+.ui-slider .ui-slider-handle {
+    width: 0.6em !important;
+    height: 0.6em !important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.2em !important;
+    display: none;
+}
+.ui-widget-header {
+    background: #45538f !important;
+    cursor: pointer;
+}
+div#slider {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#slider label {
+    position: absolute;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: -10px;
+    text-align: center;
+    font-family: "Varela Round";
+    font-size: 16px;
+    color: #999999;
+}
+.AdWidget_ImageWidget {
+    margin-bottom: 15px;
+}
+.page-template-page-schedules #cboxLoadedContent, .single-course #cboxLoadedContent {
+    margin-bottom: 0px !important;
+}

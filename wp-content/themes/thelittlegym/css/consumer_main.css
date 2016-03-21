@@ -1,0 +1,965 @@
+form { margin: 0 auto; padding: 0; width: 100%; }
+
+/*body { color: #333; background: #4d90cd url('../images/body_bgtile.jpg') repeat-x left top; background-attachment: fixed; }*/
+
+ol li { color: #666666; }
+
+ul li { color: #666666; }
+
+p { color: #666666; }
+
+a { color: #6079BA; }
+
+a[href^=tel] { 
+	color: inherit; 
+	text-decoration: none; 
+}
+
+/*a:visited {margin: 0; padding: 0;}*/
+a:hover {/*margin: 0; padding: 0;*/ cursor: pointer;}
+/*a:active {margin: 0; padding: 0;}*/
+
+h1,h2,h3,h4, div.hdr1 { color: #45609d; }
+div#wrapper { background: url('../images/wrapper_bg.jpg') no-repeat center top; background-attachment: fixed; }
+
+div#search td.ms-sbgo { margin: 0; padding: 0; background: none; }
+td.ms-sbtext { color: #0076c0; font: 12px Verdana, Helvetica, Sans-serif; }
+
+div#search table.ms-table tr { color: #0076c0; font: 12px Verdana, Helvetica, Sans-serif; }
+
+div#topnav { width: 560px; position: relative; top: 0; left: 315px; }
+
+div#mainnav { background: url('../images/mainnav_bg.gif') no-repeat top left; }
+   
+div#mainnav #zz2_GlobalNavn0 table.topNavHover {
+	background: #f79c85 url('../images/mainnav_leftcorner_on.gif') no-repeat top left;
+}
+   
+div#mainnav #zz2_GlobalNavn0 table.topNavSelected {
+	background: #f79c85 url('../images/mainnav_leftcorner_on.gif') no-repeat top left;
+}
+   
+div#mainnav #zz2_GlobalNavn4 table.topNavHover {
+	background: #f79c85 url('../images/mainnav_rightcorner_on.gif') no-repeat top right;
+}
+
+div#mainnav #zz2_GlobalNavn4 table.topNavSelected {
+	background: #f79c85 url('../images/mainnav_rightcorner_on.gif') no-repeat top right;
+}
+
+div#mainnav a.topNavItem { margin: 0; padding: 5px 25px; width: 159px; white-space: normal; display: block; }
+
+div#mainnav table.topNavFlyOuts { margin: 0; padding: 0; border: 1px solid #fff; width: 159px; }
+
+div#mainnav .topNavFlyOutsItem { margin: 0; padding: 3px 5px; width: 159px; background: #4d90cd; color: #fff; }
+
+div#mainnav .topNavFlyOutsHover { background: #f79c85; }
+
+div#mainnav table.topNavHover { background: #f79c85; }
+
+div#mainnav table.topNavSelected { background: #f79c85; }
+
+div#findagym p {color: #83449b; padding: 5px 15px;}
+
+div#findagym h3 { background: url('../images/icon_magnifyglass.gif') no-repeat top 135px; }
+
+div#findagym h3.country { background: url('../images/icon_magnifyglass.gif') no-repeat top 185px; }
+
+div#findagym select {margin: 0 0 5px 0; padding: 3px; width: 150px; height: 24px; border: 1px solid #83449b; color: #83449b;}
+
+div#findagym input.textfield {margin: 0 0 5px 0; padding: 3px; width: 150px; height: 24px; border: 1px solid #83449b; color: #83449b;}
+div#findagym input.btn_go {
+	margin: 0; padding: 0; background: url("../images/btn_go_purple.gif") no-repeat bottom left; width: 39px; height: 30px;
+}
+
+div#enrollonline { margin: 0 7px 0 0; padding: 5px 15px; background: url("../images/freeclass_bg.gif") no-repeat bottom right; }
+div#enrollonline p { padding: 5px 15px; }
+
+
+div#freeclass { margin: 0 7px 0 0; padding: 5px 15px; background: url("../images/freeclass_bg.gif") no-repeat bottom right; }
+div#freeclass p { padding: 5px 15px; }
+div#callout { margin: 0 7px 0 0; padding: 5px 15px; border: none; background: url("../images/jointhefamily_bg.gif") no-repeat bottom right; }
+div#callout p {padding: 5px 15px;}
+div#testimonial { margin: 0 7px 0 0; padding: 5px 5px 5px 15px; }
+div#testimonial p {
+	padding: 5px 15px;
+}
+div.greencallout div#plain { margin: 0 7px 0 0; padding: 5px 15px; }
+div.greencallout div#plain p {color: #8cc63f;}
+div.greencallout div#plain input {margin: 0 0 5px 0; padding: 3px; width: 150px; height: 24px; border: 1px solid #8cc63f; color: #8cc63f;}
+
+div#calloutcs { margin: 0 7px 0 0; padding: 5px 15px; border: none; }
+div#calloutcs p {padding: 5px 15px;}
+
+/* Gym Locator styles - edited by Betty 04/11 */
+div#flashmap {
+	margin: 0 0 0 10px; padding: 0;
+}
+div#gymlocator {
+	margin: 0; padding: 0; display: block;
+}
+
+div#gymlocator table {
+	 margin: 0; 
+	 padding: 0; 
+	 background-color: #FFFFFF;
+	 border: 1px solid #FFFFFF;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 12px; 
+	 color: #808080; 
+	 line-height: 1.25em; 
+	 width: 845px!important;	 
+}
+
+div#gymlocator table tr th {
+	text-align: left; background-color: #FFFFFF; border-style: none; font: 13px Arial, Helvetica, sans-serif; color: #FFFFFF; visibility: hidden;
+}
+
+div#gymlocator table tr td {
+	margin: 0; 
+	padding: 24px 20px; 
+	background: URL('../images/LocatorResults_td_gradient.jpg') left bottom repeat-x; 
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: none;
+	border-right: none;
+
+}
+
+div#gymlocator table tr td div.distance {
+	width: 185px;
+	margin-bottom: 4px;
+	padding: 5px 8px;
+	border-bottom: 1px solid #d9d9d9;			
+}
+
+
+div#gymlocator table tr td div.schedule {
+	width: 185px;
+	margin-bottom: 4px;
+	padding: 5px 8px;
+	border-bottom: 1px solid #d9d9d9;			
+}
+
+div#gymlocator table tr td div.map {
+	width: 185px;
+	padding: 5px 8px;			
+}
+
+
+div#gymlocator table tr td div.map a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #5d77b7;
+	text-decoration: none;
+}
+
+div#gymlocator table tr td div.map a:hover {
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* END Gym Locator styles */
+
+/* Contact Us form styles */
+
+div#copy div#__XmlFormView { margin: 0; padding: 0; color: #0076c0; background: #555;
+}
+
+div#copy div#__XmlFormView table tr td {
+	margin: 0; padding: 0; color: #0076c0;
+}
+div#copy div#__XmlFormView div.BrandingText {
+	display: none;
+}
+
+div#DialogFinalMessage {
+	width: 100px; z-index: 1; display: none;
+}
+
+div#contactform {
+	margin: 0; padding: 0; z-index: 3; position: relative; top: -50px; left: 0; width: 525px; overflow: hidden;
+}
+
+div#contactform table {
+
+}
+
+div#contactform table tr td {
+	overflow: hidden;
+}
+
+div#confirmMessage {
+	margin: 0; padding: 0; position: relative; top: 50px; left: 0; z-index: 2;
+}
+
+div.DialogContainer {
+	display: none;
+}
+
+/*END contact us form styles */
+
+/*franchise directory table */
+
+div#franchiseDirectory {
+	 margin: 0 0 0 20px; padding: 0; width: 862px;
+}
+
+div#franchiseDirectory a.positiongobtn {
+	 margin: 0 0 -25px 0; padding: 0;position : relative; top: -28px; left: 225px;
+}
+div#franchiseDirectory select { color: #0076c0; font: 12px Verdana, Helvetica, Arial, Sans-serif; width: 325px;}
+
+div#franchiseDirectory table table { margin: 0 0 10px 0; padding: 0; border: 1px solid #4d90cd; border-collapse: collapse; }
+
+div#franchiseDirectory table table tr.ms-alternating { background: #b1d0eb;}
+
+div#franchiseDirectory table table tr th.ms-vh {margin: 0; padding: 4px; border: 1px solid #4d90cd; background: #4d90cd; font: 13px Verdana, Helvetica, Arial, Sans-serif; color: #fff;}
+
+div#franchiseDirectory table table tr td.ms-vb {margin: 0; padding: 4px; border: 1px solid #4d90cd; font: 11px Verdana, Helvetica, Arial, Sans-serif; color: #333;}
+
+div#franchiseDirectory table table tr .centertxt {text-align: center;}
+
+
+div#franchiseDirectory div.floatleft table.subtable {
+	margin: 0; padding: 0; width: 350px;
+}
+
+div#franchiseDirectory div.floatleft table.subtable tr th {
+	margin: 0; padding: 5px; background: none; color: #4d90cd; font-weight:bold;
+}
+
+div.directory div.floatleft table.subtable tr td {
+	margin: 0; padding: 5px;
+}
+
+div#franchiseDirectory div.floatleft table.subtable tr th {
+	margin: 0; padding: 5px;
+}
+
+div#franchiseDirectory div.floatleft table.subtable tr.ms-alternating {
+	background: #deebf6;
+}
+
+/*Careers subnav - Updated by BUrquidi 5/4/2011*/
+#careers_subnav {
+	background: url('../images/careers_subnav_middle.gif') repeat-y top;
+	width: 225px;
+	margin: 15px 0 25px 15px;
+	float: right;
+}
+
+*html body #careers_subnav {
+	position: static;
+}
+
+#careers_subnav ul {
+	float: left;
+	margin: 0 15px;
+	padding: 10px 0;
+	list-style-type: none;
+}
+
+#careers_subnav ul li a {
+	/*display: list-item;
+	list-style-type:disc;
+	list-style-position: inside;*/
+	padding: 0;
+	margin: 0;
+	line-height: 15px;
+}
+
+#careers_subnav ul li {
+	font-size: 12px;
+	line-height: 0px;
+	padding: 0;
+	margin: 0;
+}
+	
+#careers_subnav .left_margin {
+	margin-left: 20px;
+}
+
+#careers_subnav_top {
+	background: url('../images/careers_subnav_top.gif') no-repeat top;
+	width: 512px;
+	height: 13px;
+	float: left;
+}
+
+#careers_subnav_bottom {
+	background: url('../images/careers_subnav_bottom.gif') no-repeat bottom;
+	width: 512px;
+	height: 13px;
+	float: left;
+}
+
+
+
+/* Struck */
+.clear-left {
+	clear: left;
+}
+
+a:focus {
+	/*outline: none;*/
+}
+
+.clear-left.pad-bottom {
+	padding-bottom: 20px;
+}
+
+.form-layout fieldset {
+	clear: left;
+	margin: 36px 0 0 0;
+	border: 0;
+	padding: 0;
+}
+
+/* necessary for IE */
+.form-layout fieldset.sub {
+	margin-top: 16px;
+}
+
+div#copy .form-layout p {
+	clear: left;
+	padding: 4px 0;
+}
+
+/* trigger error notice with .form-layout.login-problem or login-error */
+div#copy .form-layout p.error {
+	display: none;
+	clear: left;
+	color: #F00;
+	line-height: 1.2em;
+	padding: 0 0 4px 0;
+}
+
+.form-layout span.errorLabel {
+	clear: left;
+	color: #F00;
+	line-height: 1.2em;
+	padding: 0 0 4px 0;
+}
+
+.form-layout.problem-login p.error#login-problem {
+	display: block !important;
+}
+
+.form-layout.problem-login #membership_signin {
+	display: block;
+}
+
+.form-layout.error-login p.error#login-error {
+	display: block !important;
+}
+
+.form-layout.problem-password-match p.error#password-match-problem {
+	display: block !important;
+}
+
+.form-layout.error-login #membership_signin {
+	display: block;
+}
+
+/* trigger validation error notice with various .form-layout.req-[widget-type-here] */
+.form-layout p span.req {
+	float: left;
+	padding-left: 10px;
+}
+
+.form-layout.problem-email p span#req-email,
+.form-layout.problem-password p span#req-password,
+.form-layout.problem-membership-num #membership_signin,
+.form-layout.problem-pin #membership_signin,
+.form-layout.problem-membership-num p span#req-membership-num,
+.form-layout.problem-pin p span#req-pin,
+.form-layout.problem-fname p span#req-fname,
+.form-layout.problem-lname p span#req-lname,
+.form-layout.problem-address p span#req-address1,
+.form-layout.problem-city p span#req-city,
+.form-layout.problem-state p span#req-state,
+.form-layout.problem-postal-code p span#req-postal-code,
+.form-layout.problem-country p span#req-country,
+.form-layout.problem-home-phone p span#req-home-phone,
+.form-layout.problem-password2 p span#req-password2
+ {
+	display: block;
+}
+
+/* end validation error notices */
+
+.form-layout label.right {
+	float: none;
+	width: auto;
+	margin-right: 10px;
+}
+
+.form-layout label.left {
+	float: left;
+}
+
+/* different label widths for each form */
+.form-layout.signin label {
+	width: 100px;
+}
+
+.form-layout.membership label.left {
+	width: 220px;
+}
+
+.form-layout.family-info label {
+	width: 200px;
+}
+
+.form-layout label span.req-star {
+	color: #353535;
+}
+
+.form-layout input.txt, .form-layout select {
+	float: left;
+	width: 180px;
+	font-size: 12px;
+	border: 1px solid #CCC;
+	padding: 2px 0;
+}
+
+.form-layout select {
+	width: 182px;
+}
+
+.form-layout select option.instruct {
+	color: #666;
+}
+
+.form-layout optgroup option {
+	margin: 0;
+	padding: 0;
+}
+
+.form-layout input.btn {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px!important;
+	width: 80px!important;
+	margin-top: 16px;
+	border: none!important;
+	background: url('../images/submit.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addchild:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addchild {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/add_child.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_continue:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_continue {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/continue.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_save:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_save {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/save.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_addchild:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addchild {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/add_child.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_addclass:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addclass {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/add-class.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_Enroll:hover {
+	background-position: 0 -26px;
+}
+
+.form-layout input.btn_Enroll {
+	clear: left;
+	float: left;
+	display: block;
+	height: 26px;
+	width: 100px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn_enroll_now.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_viewschedule97:hover {     /* added by BCohen, 11/11/09 */
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_viewschedule97 {     /* added by BCohen, 11/11/09 */
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 97px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn_viewschedule97px.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_addmorefun97:hover {    /* added by BCohen, 11/11/09 */
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addmorefun97 {     /* added by BCohen, 11/11/09 */
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 97px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn_addmorefun97px.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_checkout97:hover {     /* added by BCohen, 11/11/09  */
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_checkout97 {     /* added by BCohen, 11/11/09  */
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 97px;  
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn_checkout97px.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+
+.form-layout input.btn_checkout:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_checkout {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;  
+	margin-top: 16px;
+	border: none;
+	background: url('../images/checkout.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_addmembership:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addmembership {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 138px;   /*modified by Bcohen on 11/3/09, from 80px */
+	margin-top: 16px;
+	border: none;
+	background: url('../images/add_membership.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.form-layout input.btn_continueandrenew:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_continueandrenew {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 157px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/continue_and_renew.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.form-layout input.btn_continuewithoutrenew:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_continuewithoutrenew {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 184px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/continue_without_renew.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_becomeMember:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_becomeMember {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 137px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn-become-a-member.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_renewMembership:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_renewMembership {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 157px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn-renew-your-membership.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.form-layout input.btn_cancel:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_cancel {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/cancel.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_close:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_close {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/close.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+
+
+.form-layout input.btn_addmembership:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_addmembership {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/add_membership.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_edit:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_edit {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/edit.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_remove:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout input.btn_remove {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/remove.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.form-layout input.btn_updatebalance:hover {
+	background-position: 0 -25px;			
+}
+
+.form-layout input.btn_updatebalance {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 97px;
+	margin-top: 16px;
+	border: none;
+	background: url('../images/btn_update_price.png') 0 0 no-repeat;
+	cursor: pointer;
+			
+}
+
+/* float-msg styles updated/added by BUrquidi 6/5/11 */
+div#copy p a.float-msg {
+	float: left;
+	padding: 15px 0 0 10px;
+}
+
+div#copy p a.float-msg:hover { 
+	padding: 15px 0 0 10px;			
+}
+
+.form-layout p.grey-msg, .form-layout p.msg {
+	font-size: 12px;
+	line-height: 1.2em !important;
+	padding-top: 12px !important;
+}
+
+.form-layout p.grey-msg {
+	color: #666;
+}
+
+.form-layout .bold {
+	font-weight: bold;
+}
+
+.form-layout span.purple-wait {
+	color: #45609d !important;
+}
+
+.form-layout span.purple-wait img {
+	margin: 0 5px -3px 0;
+}
+
+.form-layout div.btn {
+	width: 80px;
+	height: 25px;
+	margin-top: 12px;
+}
+
+.form-layout .float-btns div.btn {
+	float: left;
+	margin-right: 10px;
+}
+
+.form-layout #register-link {
+	background: url('../images/register.png') 0 0 no-repeat;
+}
+
+.form-layout div.continue {
+	background: url('../images/continue.png') 0 0 no-repeat;
+}
+
+.form-layout #continue-and-renew {
+	width: 157px;
+	background: url('../images/continue_and_renew.png') 0 0 no-repeat;
+}
+
+.form-layout #continue-without-renew {
+	width: 184px;
+	background: url('../images/continue_without_renew.png') 0 0 no-repeat;
+}
+
+.form-layout.membership #divContinue {
+	display: none;
+}
+
+.form-layout #cancel {
+	background: url('../images/cancel.png') 0 0 no-repeat;
+}
+
+/* hover on div to stay consistent for IE 6 (no hover on div/input elements) */
+.form-layout #register-link:hover, .form-layout #divContinue:hover, .form-layout #cancel:hover, .form-layout #continue-and-renew:hover, .form-layout #continue-without-renew:hover {
+	background-position: 0 -25px;
+}
+
+.form-layout div:hover.continue{
+	background-position: 0 -25px;
+}
+
+.form-layout .btn a {
+	display: block;
+	text-indent: -9999px;
+	width: 80px;
+	height: 25px;
+}
+
+.form-layout .btn#continue-and-renew a {
+	width: 157px;
+}
+
+.form-layout .btn#continue-without-renew a {
+	width: 184px;
+}
+
+.form-layout #membership_signin {
+	display: none;
+}
+
+p.error-vis {
+	clear: left;
+	color: #F00;
+	line-height: 1.2em;
+	padding: 0 0 4px 0;
+}
+
+
+.mmlogin input.btn {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px!important;
+	width: 80px!important;
+	margin-top: 16px;
+	border: none!important;
+	background: url('../images/submit.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.mmlogin input.btn:hover {
+	background-position: 0 -25px;
+}
+
+
+/* Success Stories Page Styles - B Urquidi */
+div#copy h1.storiesHdr {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 26px;
+	color: #999999;
+	clear: none;
+}
+
+div#copy #stories {
+	width: 525px;
+	margin: 10px 0 40px 0;
+	overflow: hidden;
+	clear: both;	
+}
+
+div#copy .story {
+	width: 520px;
+	margin: 20px auto  auto;
+	padding: 0 0 10px 0;
+	background: #FFFFFF url(..../images/story_divider.gif) no-repeat left bottom;
+}
+
+div#copy .story blockquote {
+	padding: 5px 12px;
+	margin: 0 12px;
+	background: #FFFFFF url(..../images/story_quote.gif) no-repeat left 2px;
+	font: normal 13px Helvetica; 
+	text-indent: 8px;
+	color: #666666;
+	line-height: 20px;	
+}
+
+div#copy .story blockquote span {
+	color: #334f8a;
+	clear: both;
+}
+
+div#copy .story p {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+div#copy .story p.owner {color: #334f8a;}
+
+div#copy .story p.owner span {font-weight: bold;}

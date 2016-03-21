@@ -1,0 +1,895 @@
+@import url('tlg_global.css');
+form {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+/*
+body {
+	color: #333;
+	background: #4d90cd url('../images/body_bgtile.jpg') repeat-x left top;
+	background-attachment: fixed;
+}*/
+
+
+/*a:visited {margin: 0; padding: 0;}*/
+a:hover {/*margin: 0; padding: 0;*/ cursor: pointer;}
+/*a:active {margin: 0; padding: 0;}*/
+
+h1, h2, h3, h4, div.hdr1 {
+	color: #45609d;
+}
+
+
+div#wrapper {
+	background: url('../images/wrapper_bg.jpg') no-repeat center top;
+	background-attachment: fixed;
+}
+
+div#search td.ms-sbgo {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+td.ms-sbtext {
+	color: #0076c0;
+	font: 12px Verdana, Helvetica, Sans-serif;
+}
+div#search table.ms-table tr {
+	color: #0076c0;
+	font: 12px Verdana, Helvetica, Sans-serif;
+}
+div#topnav {
+	width: 450px;
+	position: relative;
+	top: 0;
+	left: 425px;
+}
+div#logo {
+	height: 75px;
+	width: 510px;
+	overflow: hidden;
+}
+a[href^=tel] { 
+	color: inherit; 
+	text-decoration: none; 
+}
+
+div#logo div#locationinfo {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	top: -75px;
+	left: 173px;
+	width: 270px;
+	color: #4d90cd;
+	font: 10px Verdana, Helvetica, Arial, Sans-serif;
+	line-height: 11px;
+	text-decoration:none;
+}
+* html div#logo div#locationinfo {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	position: relative;
+	top: -5px;
+	left: 10px;
+	width: 265px;
+	color: #4d90cd;
+	font: 10px Verdana, Helvetica, Arial, Sans-serif;
+	line-height: 11px;
+	text-decoration:none;
+}
+div#logo div#locationinfo strong {
+	font: bold 11px Verdana, Helvetica, Arial, Sans-serif;
+	text-decoration:none;
+
+}
+
+div#locationinfo a[href^=tel]{
+    color:inherit;
+    text-decoration:none;
+}
+
+div#mainnav {
+	background: url('../images/mainnav_bg.gif') no-repeat top left;
+	position: static;
+}
+div#mainnav #zz2_GlobalNavn0 table.topNavHover {
+	background: #f79c85 url('../images/mainnav_leftcorner_on.gif') no-repeat top left;
+}
+div#mainnav #zz2_GlobalNavn0 table.topNavSelected {
+	background: #f79c85 url('../images/mainnav_leftcorner_on.gif') no-repeat top left;
+}
+div#mainnav #zz2_GlobalNavn6 table.topNavHover {
+	background: #f79c85 url('../images/mainnav_rightcorner_on.gif') no-repeat top right;
+}
+div#mainnav #zz2_GlobalNavn6 table.topNavSelected {
+	background: #f79c85 url('../images/mainnav_rightcorner_on.gif') no-repeat top right;
+}
+div#mainnav a.topNavItem {
+	margin: 0;
+	padding: 5px;
+	width: 110px;
+	display: block;
+}
+div#mainnav table.topNavFlyOuts {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	width: 120px;
+}
+div#mainnav .topNavFlyOutsItem {
+	margin: 0;
+	padding: 3px 4px;
+	width: 120px;
+	background: #4d90cd;
+	color: #fff;
+}
+div#mainnav .topNavFlyOutsHover {
+	background: #f79c85;
+}
+div#mainnav table.topNavHover {
+	background: #f79c85;
+}
+div#mainnav table.topNavSelected {
+	background: #f79c85;
+}
+div#copy table table table table {
+	margin: 0;
+	padding: 0;
+}
+div#copy table table table table tr.ms-viewheadertr {
+	visibility: hidden;
+}
+div#copy table table table table tr td {
+	font: 13px Verdana, Helvetica, Sans-serif;
+	line-height: 23px;
+	color: #0076c0;
+}
+div#freeclass table tr.ms-viewheadertr {
+	display: none;
+}
+
+div#freeclass table tr td.ms-vb2 {
+	margin: 0;
+	padding: 0 70px 0 15px;
+	font: 12px Verdana, Helvetica, Arial, Sans-serif;
+	color: #58595b;
+}
+div#findagym {
+	margin: 0 7px 0 0;
+	padding: 5px 15px;
+}
+div#findagym p a {
+	color: #83449b;
+}
+div#findagym p {
+	color: #83449b;
+}
+div#findagym h3 {
+	background: url('Images/global/icon_magnifyglass.gif') no-repeat top 135px;
+}
+div#findagym input.textfield {
+	margin: 0 0 5px 0;
+	padding: 3px;
+	width: 150px;
+	height: 24px;
+	border: 1px solid #83449b;
+	color: #83449b;
+}
+div#freeclass {
+	margin: 0 7px 0 0;
+	padding: 5px 15px;
+	background: url("../images/freeclass_bg.gif") no-repeat bottom right;
+}
+div#callout {
+	margin: 0 7px 0 0;
+	padding: 5px 15px;
+	background: url("../images/jointhefamily_bg.gif") no-repeat bottom right;
+}
+div#enewsletter {
+	margin: 0 7px 0 0;
+	padding: 5px 15px;
+}
+div#freeclass table {
+	width: 230px;
+}
+
+/*added and edited by BUrquidi 05/11*/
+div#announcements table tr.ms-viewheadertr {
+	display: none;
+}
+div#announcements table tr.ms-alternating {
+	background: transparent;
+}
+div#announcements table {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+div#announcements table tr td.ms-vb2 {
+	width: 239px;	
+	padding: 0 17px;
+	font: 12px Verdana, Helvetica, Arial, Sans-serif;
+	color: #FFFFFF;
+	word-wrap: break-word;
+	overflow:auto;
+}
+div#announcements table tr td.ms-vb2 a {
+	width: 239px;
+	color: #FFFFFF;
+	font: 12px Verdana, Helvetica, Sans-serif;
+	text-decoration: underline;
+	word-wrap: break-word;
+	overflow:auto;
+}
+
+div#announcements {
+	width: 273px;
+	border-left: 1px solid #51b5b4; 
+	border-right: 1px solid #51b5b4;
+	color: #FFFFFF;	
+	text-align: center;
+}
+
+div#announcements span {
+	text-align: left;
+}
+
+div#announcements span li {
+	padding: 0 19px 8px 19px;
+	text-align: left;
+}
+
+div#announcements span li a {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+div#announcements li a:hover {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;			
+}
+
+div#announcements table {
+	width: 273px;
+}
+/*end edits 05/11*/
+
+div#contactinfo {
+	margin: 0;
+	padding: 5px 0 10px 15px;
+	word-wrap: break-word;
+}
+div#contactinfo p {
+	padding: 0 0 0 15px;
+}
+div#contactinfo a {
+	color: #83449b;
+}
+div#enewsletter input.textfield {
+	margin: 0 0 5px 0;
+	padding: 3px;
+	width: 150px;
+	height: 24px;
+	border: 1px solid #ed1848;
+	color: #ed1848;
+}
+div.schedule {
+	margin: 0;
+	padding: 0;
+}
+div.schedule a.positiongobtn {
+	margin: 0 0 -25px 0;
+	padding: 0;
+	position : relative;
+	top: -28px;
+	left: 225px;
+}
+div.schedule select {
+	color: #0076c0;
+	font: 12px Verdana, Helvetica, Arial, Sans-serif;
+	width: 325px;
+}
+
+/* Edited by BUrquidi 05/11 - Affects Camp Schedules table */
+div.schedule table {
+	width: 525px!important;
+	margin: 0 0 10px 0;
+	padding: 4px;
+    border:1px solid #617abb;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.schedule table tr.ms-alternating {
+	background: #d2d9ea;
+}
+
+div.schedule table tr th.ms-vh {
+	margin: 0;
+	padding: 4px;
+	width: auto;
+	background: #5067ad url('../images/table_th_bg.jpg') repeat-x 0 0;
+    border:1px solid #617abb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 32px;	
+	vertical-align: middle;
+}
+
+div.schedule table tr td.ms-vb {
+	margin: 0;
+	padding: 2px;
+	border: 1px solid #617abb;
+	font-size: 12px;
+	color: #666666;
+}
+
+/* End edits by BUrquidi 05/11 */
+
+div.schedule table tr .centertxt {
+	text-align: center;
+}
+
+div.schedule table table {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.floatleft {
+	float: left;
+}
+span.ages {
+	font: 9px Arial, Sans-serif;
+	color: #565656;
+	width: 100px;
+}
+
+/* Contact Us form styles */
+div#DialogFinalMessage {
+	width: 100px;
+	z-index: 1;
+	display: none;
+}
+div#contactform {
+	margin: 0;
+	padding: 0;
+	z-index: 3;
+	position: relative;
+	top: -50px;
+	left: 0;
+	width: 525px;
+	overflow: hidden;
+}
+div#contactform table {
+}
+div#contactform table tr td {
+	overflow: hidden;
+}
+div#confirmMessage {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 50px;
+	left: 0;
+	z-index: 2;
+}
+div.DialogContainer {
+	display: none;
+}
+
+/*   Calendar Styles -- created by BCohen, 10/30/09 & edited by Betty Urquidi 05/11  */
+
+
+div#divCalendarHeader .calMonth {	/* used on BirthdaySchedule.ascx, month name */
+		color: #617abb;
+		font-family: Arial, Helvetica, sans-serif;
+    	font-size: 18px;
+		font-weight: bold;
+    	vertical-align: middle;
+    }
+    
+   div#divCalendarHeader .calNav {	/* used on BirthdaySchedule.ascx, prev, next buttons */
+    	margin-bottom: 3px;
+		vertical-align: middle;
+    }
+
+    table.scheduleTable 			  /* used on BirthdaySchedule.ascx and ClassSchedules.ascx */
+    {
+       	border:1px solid #617abb;
+        border-collapse:collapse;
+        margin:0 0 10px 0;
+        padding:0;
+    }
+    table.scheduleTable tr.calHeader,  /* used on BirthdaySchedule.ascx */
+    table.scheduleTable tr.cellHeader  /* used on ClassSchedules.ascx */
+    {
+        -x-system-font:none;
+		background: #5067ad url('../images/table_th_bg.jpg') repeat-x 0 0;
+        border:1px solid #617abb;
+        color:#FFFFFF;
+		font-family: Arial, Helvetica, sans-serif;
+        font-size:10px;
+        margin:0;
+        padding:2px;
+        
+     }
+     
+         
+     .scheduleTimes,		/* cells in classSchedules.ascx */
+     table.scheduleTable .calEnabled	/* cells in birthdaySchedule.ascx */
+     {
+         -x-system-font:none;
+        background: white;
+        border:1px solid #617abb;
+        color:#333333;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:9px;
+        line-height:3;
+        margin:0;
+        padding:2px;
+        width:120px;
+     
+     }
+     
+     table.scheduleTable .calEnabled	/* cells in birthdaySchedule.ascx, date */
+     {
+        line-height: normal;
+     
+     }
+     
+     table.scheduleTable .calEnabled td  /* inset table cells in birthdaySchedule.ascx, times */
+     {
+     	font-size: 9px;
+     	line-height: 1.75em;
+     	text-align: center;
+     }
+     
+    
+    .calAdjacent		/* used in birthdaySchedule.ascx for cells from prev & next month */
+    {
+		background-color: #d2d9ea;
+		border:1px solid #617abb;
+
+    }
+        
+    .calDisabled
+    {
+    	background-color: white;
+    }
+    
+	/*Additional Calendar Styles added by BUrquidi 05/11 */
+	
+    table.scheduleTable tr.cellHeader th {
+		height: 34px;
+		background: #5067ad url('../images/table_th_bg.jpg') repeat-x 0 0;
+		border: 1px solid #617abb;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 32px;	
+		vertical-align: middle;
+        text-align: center;
+	}
+	
+	table.scheduleTable tr td.classNames {
+		padding: 8px 12px 14px 6px;
+		background-color: #d2d9ea;
+		border: 1px solid #617abb;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;	
+	}	
+	
+	table.scheduleTable tr td.classNamesWK {
+		padding: 8px 12px 14px 6px;
+		background-color: #C1E784;
+		border: 1px solid #617abb;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;	
+	}	
+
+	
+	 table.scheduleTable td.calEnabled span { /* calendar day numbers */
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size: 12px;
+		 font-weight: bold;
+		 color: #5067ad;
+	 }
+	 
+	table.scheduleTable td.calEnabled table span  { /* calendar times, not clickable */
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 11px;
+		color: #666666;	
+	}
+	
+	table.scheduleTable td.calEnabled table a { /*calendar times, clickable */
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #6079ba;	
+	}
+	
+	table.scheduleTable td.scheduleTimes {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #6079ba;	
+	}
+	
+	table.scheduleTable td.scheduleTimes a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #6079ba;	
+	}   
+	
+	table.scheduleTable td a:hover {
+	color: #6079ba!important;	
+	font-size: 11px!important;
+	font-weight: normal!important;
+	text-decoration: underline!important;
+	margin: 0!important;
+	padding:0!important;
+}    
+
+div#copy table a.classDescriptionLink {
+	font-size: 13px;
+}
+
+div#copy a.classDescriptionLink {
+	font-size: 13px;
+}
+
+div#copy table a.classDescriptionLink:hover {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+div#copy table div.schedule p a:hover {
+	font-size: 16px;
+}
+				
+
+    
+ /* Birthday Add-ons Styles, added by BCohen, 11/3/09 & edited by Betty A. Urquidi 05/11 */
+ 
+	div#copy table.birthdayOptions {
+		width:100%;
+		}
+	.birthdayOptions th {
+		text-align: left; 
+		padding: 3px 13px; 
+		background-color: red;
+		background: #5067ad url('../images/table_th_bg.jpg') repeat-x 0 0;
+		border: 1px solid #617abb; 
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 13px;
+		text-align: left; 
+		text-transform: uppercase; 
+		color: #FFFFFF; 	
+		}
+		
+	.birthdayOptions td {
+		border: 1px solid #617abb;
+		color: #666666;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 2em; 
+		padding: 8px 12px; 
+		vertical-align: top; 
+		width: auto;
+		}
+	.birthdayOptions .bdayName {
+		font-weight: bold;
+	}
+	.birthdayOptions .bdayDescription {
+		display: block;
+		margin-left: 24px;
+	}
+	
+	.birthdayOptions .costTable td {
+		border: 0;
+		padding: 0 4px;
+}
+
+	.form-layout .buttonshorizontal input {
+		margin-right: 10px;
+}
+	
+	
+/* Shopping Cart Styles, added by BCohen, 11/9/09 & edited by BUrquidi 05/11 */
+
+	.shopping-cart {
+		border-top: 1px solid #617abb; 
+		margin-bottom: 15px;
+		width: 800px;
+		
+	}
+	
+	.confirmDetails {
+		width: 525px !important;
+}
+	.confirmDetails .cartItem {
+		width: 525px !important;
+}
+
+	
+	.shopping-cart input.btn_edit,
+	.shopping-cart input.btn_remove {
+		margin: 0px;
+		width: 66px;
+		text-align: right;
+		}
+		
+	.cartItem {
+		border-top: 1px solid #617abb; 
+		color: #6079ba;
+		font-family: Arial, Helvetica, sans-serif;		
+		font-size: .75em;
+		line-height: 1.5; 
+	
+		}
+	
+	.cartItem td {padding: 5px 0px 10px;}
+		.shopping-cart .cartItem td.first {
+		width: 500px;
+	}
+	
+	.shopping-cart .cartItem td.first {
+		width: 500px;
+	}
+	
+	.confirmDetails .cartItem td.first {
+		width: 300px;
+	}
+	
+	.shopping-cart .cartItem td.button {
+		width: 75px;
+	}
+	
+	.confirmDetails .cartItem td.button {
+		width: 0px;
+	}	
+	
+
+	.confirmDetails .cartItem td.cost {
+		width: 40%;}
+	
+	.cartItem td.right, .cartFooter td.right {
+		padding-right: 28px;
+		text-align: right;}
+	
+	.cartItem div.cartItemParty,
+	.cartItem div.cartItemPSN,	 
+	.cartItem div.cartItemClass, 
+	.cartItemMembership {}
+	
+	.cartItem .cartItemPackage, 
+	.cartItem .cartItemSubhead, 
+	.cartItem .cartItemStudent {font-weight: bold;}
+	
+	.cartItem .cartItemMemMile {}
+	
+	.cartItem div.cartItemDetails {margin-top: 10px;}
+		
+	.cartItem .cartItemDate, .cartItem .cartItemDetail {}
+	
+	.cartItem .cartItemDue {}
+	
+	.cartItemPayPlan {
+}
+	
+	.shopping-cart .cartFooter {
+		width: 800px;
+}
+
+	.confirmDetails .cartFooter {
+		width: 525px;
+}
+	.cartFooter {
+		border-top: 1px solid #617abb; 
+		color: #6079ba;
+		font-family: Verdana,Helvetica,Sans-serif;
+		font-size: .75em;
+		line-height: 2;		
+	}
+	
+	tr.cartSubtotal td, 
+	tr.cartTax td {
+		border-bottom: 1px solid #CCC;
+	}	
+	tr.cartOrderTotal td {
+	}	
+	
+	.cartTotalMemMile td {
+		font-size: .8em;
+		border-bottom: 2px solid #617abb;}
+		
+	.shopping-cart .userErrorMessage
+	{
+    color:#FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+    padding-left:2px;
+     } 
+     
+	.cartFooter .currency { /* added by Bcohen 1/14/2010 */
+	color: #666666; 
+	display: block;
+	font-size: .75em; 
+	font-weight: bold; 
+	padding: 5px 0 5px 2px;}
+	
+	.shopping-cart .cartFooter .currency {
+		line-height: 14px; 
+	}
+	
+/* Parents Survival Night Styles, added by BCohen, 11/16/09 & edited by BUrquidi 05/11 */
+
+.cbAgreement input {margin-right: 6px;}
+
+.cbAgreement label {
+	color: #6079ba;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 13px;
+	line-height: 1.5; 
+	width: auto;
+}
+		
+.schedule table.schedulePSN {
+	border: 0;
+	width:100%;
+}
+	
+.schedule table.schedulePSN {}
+	
+.schedulePSN .PSNItem {border-bottom: 1px solid #d9d9d9!important;}
+	
+
+.PSNItem td {padding: 5px 0 8px 0;}
+
+.PSNItem h3 {
+	color:#6079ba;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	line-height: 23px;
+	padding: 0;
+	}
+	
+.psnDesc {
+	color:#666666!important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: Normal;
+	line-height: Normal;
+}
+
+a.btn_register {
+		clear: left;
+		float: left;
+		display: block;
+		height: 25px;
+		width: 80px;
+		margin-top: 10px;
+		border: none;
+		cursor: pointer;
+		background: url('../images/register.png') 0 0 no-repeat;
+
+}
+
+a.btn_register:hover {
+	background-position: 0 -25px;
+
+}
+	
+
+.PSNItem a.btn_register {
+	margin-top: 0;
+	
+}
+
+.btn_register:hover, .scheduleTable .register-link:hover {
+	background-position: 0 -25px;
+
+}
+	
+a.btn_register, input.btn_register {
+	clear: left;
+	float: left;
+	display: block;
+	height: 25px;
+	width: 80px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	background: url('../images/register.png') 0 0 no-repeat;
+
+}
+
+a.btn_register:hover, input.btn_register:hover {
+	background-position: 0 -25px;
+
+}
+	
+
+/* Camp Schedule Styles, added by BCohen, 12/8/09 */
+
+table.scheduleCamp td.ms-vb {width: 65px; padding: 4px;}
+
+
+/* Cart Confirmation Page Styles, added by BCohen 12/17/09 & edited by BUrquidi 05/11 */
+
+div#copy .confirm {width:100%; 	clear: both;}
+ 
+
+div#copy .confirm h2, div#copy .payment h2 {border-bottom:1px solid #617abb;padding-top: 30px; }
+ 	
+
+div#copy .confirm h3 {font-family: Arial, Helvetica, sans-serif; font-size: 1em; font-weight: bold; color: #6079ba; padding: 8px 0 0; }
+ 	
+
+div#copy .confirm h4 {color: #6079ba; font-size: 1.25em; margin-bottom: 0;}
+ 
+div#copy .confirm .confirmItemDetail {border-bottom:1px solid #617abb;} 
+
+/*div#copy .confirm .confirmDetailFooter {border-top: 0;} */
+
+div#copy .confirm .confirmItemDetail,
+div#copy .confirm .confirmDetailFooter h4 {font-size: 1em;}
+
+div#copy .confirm .confirmItemDetail td {padding-bottom:5px;} 
+
+
+
+div#copy .confirm p, 
+div#copy .confirm td {font-family:Arial, Helvetica, sans-serif; font-size: 1em; line-height: 1.5em;}
+
+div#copy .confirm .cartSubotal {
+	width: 440px;
+}
+
+div#copy .confirm .confirmDetailFooter .cartOrderTotal td {border-bottom: 1px solid #CCC;}
+
+div#copy .confirm .confirmDetailFooter .cartTotalMemMile td {border-bottom:1px solid #617abb;}
+
+.confirm .cartDetailFooter .currency {
+		line-height: 2; 
+	}
+
+/* Cart Billing & Payment page styles, added by BCohen 4/21/10 & edited by BUrquidi 05/11 */
+
+table.form_table th {
+	color:#6079ba;
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	padding:5px;
+	width: 170px; 
+}
+	
+.form-layout table.form_table input.txt, .form-layout table.form_table select.txt {
+	float: none;
+	margin-right: 5px;
+	width: 240px;
+}	
+	
+div#copy .payment table.form_table {margin-top: 10px;}	
+
+div#copy table.form_table td.cc-type table tr td {padding: 0;}
+
+div.copy .reqd {
+	margin-left: 5px;
+}

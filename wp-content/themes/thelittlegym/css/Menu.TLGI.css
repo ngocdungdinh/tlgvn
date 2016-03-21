@@ -1,0 +1,599 @@
+/* <RadMenu / Simple> */
+
+
+/* <Root items> */
+
+.RadMenu_TLGI,
+.RadMenu_TLGI a.rmLink
+{
+	font: normal 16px Helvetica;
+	color: #FFFFFF; /*root level links*/
+	text-decoration: none;
+	text-align:left;
+	list-style:none;
+	line-height:20px;
+	
+
+}
+
+.RadMenu_TLGI .rmItem a.rmLink
+{
+text-align:left;
+	/*padding: 1px 2px;*/
+}
+
+
+
+.RadMenu_TLGI .rmHorizontal a.rmLink .rmText
+{
+	padding-right: 0;
+}
+
+.RadMenu_TLGI a.rmRootLink .rmText
+{
+	list-style:none;
+}
+
+.RadMenu_TLGI_Context a.rmRootLink .rmText
+{
+	
+}
+
+.RadMenu_TLGI ul.rmVertical .rmText
+{
+	font-family: Arial;
+	font-size: 13px;
+    text-align:left;
+    color: #6179ba; /*drop down links*/
+    cursor:hand;
+}
+
+.RadMenu_TLGI_rtl ul.rmVertical .rmText
+{
+    padding-left:0px;
+}
+
+.RadMenu_TLGI .rmItem a.rmLink:hover,
+.RadMenu_TLGI .rmItem a.rmFocused,
+.RadMenu_TLGI .rmItem a.rmSelected
+{
+	/*background: #ccd4ff;
+	border: 1px solid #6172c9;
+	color: #0b3389;*/
+	padding: 0px;
+	
+}
+
+.RadMenu_TLGI .rmItem a.rmExpanded,
+.RadMenu_TLGI .rmItem a.rmExpanded:hover
+{
+	background-color: #d2d9ea;
+	padding: 1px 0px;
+	color: #334f8a;
+	cursor:hand;
+}
+
+
+.RadMenu_TLGI .rmItem a.rmDisabled:hover
+{
+	color: #7d7d7d;
+	background-color: transparent;
+	border: 0;
+	padding: 1px 0px;
+}
+
+.RadMenu_TLGI img.rmLeftImage,
+.RadMenu_TLGI span.rmLeftImage
+{
+/*	margin: 2px 2px 0 0;
+	padding-bottom: 3px;*/
+}
+
+/* </Root items> */
+
+
+/* <Submenu items> */
+
+.RadMenu_TLGI .rmGroup,
+.RadMenu_TLGI .rmMultiColumn,
+.RadMenu_TLGI .rmGroup .rmVertical
+{
+	border: 1px solid #616161;
+	background: #ffffff ;
+}
+
+.RadMenu_TLGI .rmTopFix,
+.RadMenu_TLGI .rmBottomFix,
+.RadMenu_TLGI .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_TLGI .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_TLGI .rmRoundedCorners .rmFirstGroupColumn li.rmFirstGroupColumn .rmItem,
+.RadMenu_TLGI .rmRoundedCorners ul.rmHorizontal .rmFirst,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_TLGI_Context.rmRoundedCorners ul.rmHorizontal .rmFirst
+{
+	/*background-image: url('../images/rmDropDownStripe.png');*/
+	background-color: #ffffff; 
+	list-style:none;
+}
+
+* html .rmRoundedCorners_TLGI .rmGroup .rmItem,
+* html .rmRoundedCorners_TLGI ul.rmHorizontal .rmFirst
+{
+	
+	background-color: #ffffff; 
+}
+
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_TLGI .rmRoundedCorners .rmGroupColumn .rmItem,
+.RadMenu_TLGI .rmRoundedCorners .rmGroupColumn .rmGroupColumn .rmItem,
+.RadMenu_TLGI .rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrap .rmVertical,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmGroup,
+* html .rmRoundedCorners_TLGI .rmScrollWrap .rmItem,
+* html .rmRoundedCorners_TLGI .rmHorizontal .rmItem,
+* html .rmRoundedCorners_TLGI .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+.RadMenu_TLGI .rmRoundedCorners .rmGroupColumn
+{
+	background-color: #ffffff;
+}
+
+.RadMenu_TLGI .rmBottomLeft,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_TLGI_Context.rmRoundedCorners ul.rmGroup,
+.RadMenu_TLGI .rmRoundedCorners ul.rmGroup,
+.RadMenu_TLGI .rmRoundedCorners .rmMultiColumn
+{
+	background-image:  url('../images/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+	
+}
+
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer,
+* html .rmRoundedCorners_TLGI .rmGroup ul.rmGroup,
+* html .rmRoundedCorners_TLGI ul.rmGroup
+{
+	background-image:  url('../images/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_TLGI .rmTopRight,
+.RadMenu_TLGI .rmBottomRight
+{
+	background-image:  url('../images/rmRoundedRight.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_TLGI .rmTopFix,
+.RadMenu_TLGI .rmBottomFix,
+.RadMenu_TLGI .rmRoundedCorners .rmGroup .rmFirst,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmGroup .rmFirst,
+.rmRoundedCorners_TLGI .rmGroup .rmFirst
+{
+	border-color: #616161;
+}
+
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomFix
+{
+	background: #ffffff;
+}
+
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmTopFix,
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmBottomFix
+{
+	background: #ffffff;
+}
+
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #ffffff;
+	border: 0;
+}
+
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmTopArrow,
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmBottomArrow,
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmLeftArrow,
+* html .rmRoundedCorners_TLGI .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #ffffff;
+	border: 0;
+}
+
+.RadMenu_TLGI li.rmTopFix,
+.RadMenu_TLGI li.rmBottomFix
+{
+	background-position: -4px 0;
+	
+}
+
+.RadMenu_TLGI_rtl .rmBottomLeft,
+.RadMenu_TLGI_rtl .rmRoundedCorners ul.rmGroup,
+.RadMenu_TLGI_rtl .rmRoundedCorners .rmMultiColumn,
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_TLGI .rmScrollWrapContainer .rmBottomLeft,
+.rmRoundedCorners.RadMenu_TLGI_Context_rtl ul.rmGroup,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer
+{
+	background-image: url('../images/rmRoundedLeft_rtl.png');
+}
+
+.RadMenu_TLGI_rtl .rmTopRight,
+.RadMenu_TLGI_rtl .rmBottomRight
+{
+	background-image: url('../images/rmRoundedRight_rtl.png');
+}
+
+.RadMenu_TLGI_rtl li.rmTopFix,
+.RadMenu_TLGI_rtl li.rmBottomFix,
+.RadMenu_TLGI_rtl .rmRoundedCorners .rmGroup .rmItem,
+.rmRoundedCorners.RadMenu_TLGI_Context_rtl .rmGroup .rmItem
+{
+	background-position: 101% 0;
+}
+
+.RadMenu_TLGI .rmGroup .rmHorizontal
+{
+	background: #ffffff;
+}
+
+.RadMenu_TLGI .rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.RadMenu_TLGI_Context.rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.rmRoundedCorners_TLGI .rmScrollWrapContainer li.rmItem
+{
+	background: none;
+	list-style:none;
+}
+
+.RadMenu_TLGI .rmGroup .rmItem a.rmLink
+{
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+
+	
+}
+
+.RadMenu .rmGroup .rmItem .rmLeftImage
+{
+				margin: 2px 0 0 1px;
+
+}
+
+* html .RadMenu .rmGroup .rmItem .rmLeftImage { margin: 2px 0 0 3px; }
+*+html .RadMenu .rmGroup .rmItem .rmLeftImage { margin: 2px 0 0 3px; }
+
+.RadMenu_TLGI .rmGroup .rmItem a.rmLink:hover,
+.RadMenu_TLGI .rmGroup .rmItem a.rmFocused,
+.RadMenu_TLGI .rmGroup .rmItem a.rmSelected,
+.RadMenu_TLGI .rmGroup .rmItem a.rmExpanded,
+.RadMenu_TLGI .rmGroup .rmItem a.rmExpanded:hover
+{
+	padding: 0;
+						
+}
+
+.RadMenu_TLGI .rmGroup .rmItem a.rmDisabled,
+.RadMenu_TLGI .rmGroup .rmItem a.rmDisabled:hover
+{
+	padding: 1px;
+}
+
+.RadMenu_TLGI .rmGroup .rmItem a.rmLink .rmText
+{
+	padding-right: 0px;
+}
+
+.RadMenu_TLGI .rmGroup .rmHorizontal a.rmLink .rmText
+{
+	padding-right: 0px;
+}
+
+.RadMenu_TLGI .rmVertical .rmExpandRight,
+.RadMenu_TLGI .rmVertical .rmExpandLeft,
+.RadMenu_TLGI .rmGroup .rmExpandRight,
+.RadMenu_TLGI .rmGroup .rmExpandLeft,
+.RadMenu_TLGI .rmTopArrow,
+.RadMenu_TLGI .rmBottomArrow,
+.RadMenu_TLGI .rmLeftArrow,
+.RadMenu_TLGI .rmRightArrow
+{
+	background: transparent url('../images/rmExpandArrows.png') no-repeat;
+}
+
+.RadMenu_TLGI .rmVertical .rmExpandRight,
+.RadMenu_TLGI .rmGroup .rmExpandRight { background-position: 100% 0; }
+.RadMenu_TLGI .rmVertical .rmExpandLeft,
+.RadMenu_TLGI .rmGroup .rmExpandLeft { background-position: 0 -48px; }
+.RadMenu_TLGI a.rmLink:hover .rmExpandRight,
+.RadMenu_TLGI a.rmFocused .rmExpandRight,
+.RadMenu_TLGI a.rmSelected .rmExpandRight,
+.RadMenu_TLGI a.rmExpanded .rmExpandRight { background-position: 100% 0 -24px; }
+.RadMenu_TLGI a.rmLink:hover .rmExpandLeft,
+.RadMenu_TLGI a.rmFocused .rmExpandLeft,
+.RadMenu_TLGI a.rmSelected .rmExpandLeft,
+.RadMenu_TLGI a.rmExpanded .rmExpandLeft { background-position: 0 -72px; }
+
+.RadMenu_TLGI .rmTopArrow,
+.RadMenu_TLGI .rmBottomArrow,
+.RadMenu_TLGI .rmLeftArrow,
+.RadMenu_TLGI .rmRightArrow
+{
+	background-color: #ffffff;
+}
+
+.RadMenu_TLGI .rmTopArrow
+{
+	border-bottom: 1px solid #616161;
+	background-position: 50% -95px;
+}
+
+.RadMenu_TLGI .rmBottomArrow
+{
+	border-top: 1px solid #616161;
+	background-position: 50% -109px;
+}
+
+.RadMenu_TLGI .rmLeftArrow
+{
+	border-right: 1px solid #616161;
+	background-position: 50% -48px;
+}
+
+.RadMenu_TLGI .rmRightArrow
+{
+	border-left: 1px solid #616161;
+	background-position: 50% 1px;
+}
+
+.RadMenu_TLGI .rmVertical li.rmSeparator,
+.RadMenu_TLGI .rmHorizontal .rmVertical li.rmSeparator
+{
+	border-left: 0;
+	border-right: 0;
+}
+
+.RadMenu_TLGI .rmVertical li.rmSeparator .rmText,
+.RadMenu_TLGI .rmHorizontal .rmVertical li.rmSeparator .rmText
+{
+	background: #616161;
+	padding-bottom: 1px;
+	margin-top: 2px;
+}
+
+.RadMenu_TLGI .rmHorizontal li.rmSeparator .rmText,
+.RadMenu_TLGI .rmVertical .rmHorizontal li.rmSeparator .rmText
+{
+
+	background: #616161;
+	width: 1px;
+	margin-left: 1px;
+}
+
+
+/* Custom Styles */
+
+
+.RadMenu_TLGI ul.rmHorizontal li a.rmRootLink 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadMenu_TLGI ul.rmHorizontal li a.rmRootLink:hover 
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+.RadMenu_TLGI ul.rmHorizontal li a.rmRootLink .rmText
+{
+	/*color: #FFFFFF;*/
+	display: block;
+	margin: 0;
+	padding: 8px 10px;
+}
+
+
+.RadMenu_TLGI ul.rmHorizontal li.rmItem a:hover {
+	background: #d2d9ea url('../images/mainnav_root_leftcorner.gif') no-repeat left top;	
+	padding: 0;
+}
+
+.RadMenu_TLGI ul.rmHorizontal li a.rmRootLink:hover .rmText 
+{
+	border: none;
+	color: #334f8a;
+	margin: 0;
+}
+
+.RadMenu_TLGI ul.rmHorizontal li a.rmRootLink:hover span  {
+	background: url('../images/mainnav_root_rightcorner.gif') no-repeat right top;
+}
+
+.RadMenu_TLGI ul.rmHorizontal li:hover a.rmRootLink .rmText   {
+	border: none;
+	color: #334f8a;			
+	margin: 0;
+}
+
+.RadMenu_TLGI ul.rmHorizontal ul.rmVertical
+{
+	width: 212px;
+	background: #d2d9ea url('../images/mainnav_root_rightcorner.gif') no-repeat right top;
+	border: none;
+}
+
+.RadMenu_TLGI .rmVertical .rmText 
+{
+	padding: 0;
+}
+
+
+.RadMenu_TLGI ul.rmHorizontal ul.rmVertical li
+{	
+	width: 204px;
+	text-indent: 0px;
+}
+
+
+.RadMenu_TLGI .rmVertical .rmItem a.rmLink:hover
+{
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.RadMenu_TLGI ul.rmHorizontal ul.rmVertical li.rmItem  {
+	padding: 6px 0;
+	margin: 0 2px;				
+}
+
+.RadMenu_TLGI ul.rmHorizontal ul.rmVertical li.rmItem a  {
+	width: 202px;
+	height: 28px;
+	/*padding: 0 0 7px 0;*/	
+	/*background:url('../images/dropdown_divider.gif') no-repeat center bottom;*/
+	background:url('../images/dropdown_divider_sprite.gif') no-repeat -203px 0;							
+}
+
+.RadMenu_TLGI ul.rmHorizontal ul.rmVertical li.rmItem a:hover  {
+	width: 202px;
+	height: 28px;
+	/*padding: 0 0 7px 0;*/
+	/*background:url('../images/dropdown_divider_rollover.gif') no-repeat center bottom;*/	
+	background:url('../images/dropdown_divider_sprite.gif') no-repeat 0 0;							
+}
+
+
+.RadMenu_TLGI ul.rmVertical a.rmLink:hover .rmText
+{
+	font-family: Arial;
+	font-size: 13px;
+    color: #0b3389; /*drop down links color - hover state*/
+}
+
+
+
+/* End Styles Added by BUrquidi */
+
+
+
+/* <rtl> */
+
+.RadMenu_TLGI_rtl .rmGroup,
+.RadMenu_TLGI_rtl .rmGroup .rmVertical
+{
+	background-position: 101% 0;
+}
+
+.RadMenu_TLGI_rtl .rmGroup .rmItem a.rmLink .rmText
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.RadMenu_TLGI_rtl .rmGroup .rmHorizontal a.rmLink .rmText
+{
+	padding-left: 0px;
+	padding-right: 1px;
+}
+
+/* </rtl> */
+
+.RadMenu_TLGI .rmScrollWrap .rmVertical
+{
+	border: 0;
+}
+
+/* </RadMenu / Simple> */
+
+
+
+ div.RadMenu_TLGI 
+ {	
+    BORDER-BOTTOM-COLOR: transparent;	
+    background-image:none;
+    float: right; /* Added by Betty 4/15 */
+ } 
+ div.RadMenu_TLGI .rmRootGroup {	
+     border-bottom-color: transparent;	
+     background-image: none;
+     BORDER-TOP-COLOR: transparent;	
+     BORDER-RIGHT-COLOR: transparent;	
+     BORDER-LEFT-COLOR: transparent;
+     list-style: none;
+ } 
+ div.RadMenu_TLGI .rmItem .rmGroup {	
+     BORDER-LEFT: transparent 0px solid;	
+     BACKGROUND-COLOR: #D2D9EB;	
+     BORDER-TOP-COLOR: transparent;	
+     BORDER-RIGHT: transparent 0px solid;
+ } 
+ div.RadMenu_TLGI .rmGroup .rmItem .rmLink {	
+     list-style:none;
+     text-indent:-20px;
+     padding-left:-5px;
+     margin:0px;
+} 
+
+div.RadMenu_TLGI .rmItem .rmLink {	
+    FONT-FAMILY: Helvetica;	
+    /*COLOR: #334f8a;*/
+    FONT-SIZE: 16px;
+    list-style:none;
+} 
+ div.RadMenu_TLGI .rmItem .rmLink:hover .rmText {	
+     color:#334f8a;
+     FONT-FAMILY: Helvetica;
+     FONT-SIZE: 16px;
+     cursor:hand;
+     line-height:20px;
+     list-style:none;
+ }
+ div.RadMenu_TLGI .rmItem .rmLink .rmExpandDown {	
+     FONT-FAMILY: Helvetica;
+     /*color:#334f8a;*/
+     FONT-SIZE: 16px;
+     line-height:20px;
+     list-style:none;
+     margin:0px;
+ }   
+ 
+ 
+ div.RadMenu_TLGI .rmItem .rmGroup {	
+    BACKGROUND-IMAGE: none; 
+ } 
+ div.RadMenu_TLGI .rmGroup .rmItem .rmLink {COLOR: #ffffff;} 
+ div.RadMenu_TLGI .rmGroup .rmItem .rmLink:hover {	
+    BORDER-TOP-COLOR: transparent;	
+    BORDER-RIGHT-COLOR: transparent;	
+    BORDER-LEFT-COLOR: transparent;
+			
+ }

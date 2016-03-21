@@ -1,0 +1,118 @@
+/* tooltip CLASS SCHEDULE - edited by Betty Urquidi 05/11 */
+#tooltip-try {
+	position: absolute;
+	z-index: 10000;
+	display: none; /* show using JS */
+	width: 224px;
+	height: 172px;
+	text-align:center;	/* center contents in IE because auto margin isn't supported */
+	background: url('../images/HoverCallOut_172_Background.png') no-repeat;
+}
+
+#tooltip-try #enroll-text
+{
+    background:url('../images/EnrollinThisClassText.png') no-repeat;
+    width: 140px;
+    height: 20px;
+    margin: 20px auto 0 auto;
+}
+/* Layout when the enroll button is shown alone */
+#tooltip-try #enroll-text.single
+{
+    margin: 40px auto 20px auto;
+}
+
+#tooltip-try #intro-text
+{
+    background:url('../images/BookanIntroText.png') no-repeat;
+    width: 218px;
+    height: 15px;
+    margin: 0 auto 3px auto;
+}
+
+#tooltip-try #KMintro-text
+{
+    background:url('../images/BookanKMIntroText.png') no-repeat;
+    width: 218px;
+    height: 15px;
+    margin: 0 auto 3px 10px;
+}
+
+/* Layout when the intro button is shown alone */
+#tooltip-try #intro-text.single
+{
+    margin: 40px auto 20px auto;
+}
+
+#tooltip-try #divider
+{
+    background:url('../images/CeTtLine.png') no-repeat;
+    width: 170px;
+    height: 11px;
+    margin: 0 auto 0 auto;
+}
+
+#tooltip-try .btn {
+	width: 117px;
+	height: 28px;
+	margin: 0 auto 0 auto;
+}
+
+#tooltip-try .btn a {
+	display: block;
+	text-indent: -9999px;
+	width: 117px;
+	height: 28px;
+}
+
+#tooltip-try #enroll-link.btn {
+	background: url('../images/EnrollNow.png') no-repeat 0 0;
+	
+}
+
+#tooltip-try #enroll-link.btn:hover {
+	background-position: 0 -28px;
+}
+
+#tooltip-try #intro-class-link.btn {
+	background: url('../images/BookNow.png') no-repeat 0 0;
+}
+
+#tooltip-try #intro-class-link.btn:hover {
+	background-position: 0 -28px;
+}
+
+/* tooltip BDAY SCHEDULE */
+#tooltip-bday {
+	position: absolute;
+	z-index: 10000;
+	display: none; /* show using JS */
+	width: 188px;
+	height: 121px;
+	background: url('../images/tooltip-bday.png') no-repeat;
+	color: #FFFFFF;
+}
+
+#tooltip-bday .btn {
+	width: 97px;
+	height: 25px;
+}
+
+#tooltip-bday .btn a {
+	display: block;
+	text-indent: -9999px;
+	cursor: pointer;
+	width: 97px;
+	height: 25px;
+}
+
+
+#tooltip-bday #book-now-link.btn {
+	background: url('../images/btn_book_now.png') no-repeat 0 0;
+	margin: 45px 0 0 43px;
+}
+
+#tooltip-bday #book-now-link.btn:hover {
+	background-position: 0 -25px;
+}
+
